@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/prompt-gallery/',
+  base: process.env.NODE_ENV === 'production' ? '/prompt-gallery/' : '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')
@@ -13,5 +13,14 @@ export default defineConfig({
   server: {
     port: 5173,
     host: true
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
   }
 }) 
