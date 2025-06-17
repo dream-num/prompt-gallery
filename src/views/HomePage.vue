@@ -8,12 +8,12 @@
             to="/" 
             class="text-xl font-medium hover:text-blue-600 transition-colors duration-200"
           >
-            Prompts Library
+            Prompts Gallery
           </router-link>
         </div>
         <div class="flex items-center space-x-4">
           <a 
-            href="https://Capalyze.ai" 
+            href="https://capalyze.ai" 
             target="_blank"
             class="px-3 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-400 transition-colors duration-100 text-sm"
           >

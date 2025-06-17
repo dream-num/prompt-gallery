@@ -1,5 +1,6 @@
 import { ecommercePrompts } from './ecommerce'
 import { localPrompts } from './local'
+import { marketingPrompts } from './marketing'
 import { socialPrompts } from './social'
 
 export const tags = [
@@ -9,5 +10,6 @@ export const tags = [
 export const prompts = [
   ...ecommercePrompts,
   ...localPrompts,
+  ...marketingPrompts,
   ...socialPrompts
 ]

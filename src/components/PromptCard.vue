@@ -8,11 +8,7 @@
           <div class="flex items-center space-x-2">
             <span 
               class="px-2.5 py-1 text-xs rounded-full font-medium"
-              :class="{
-                'bg-purple-100 text-purple-700': prompt.category === 'Ecommerce',
-                'bg-green-100 text-green-700': prompt.category === 'Social',
-                'bg-blue-100 text-blue-700': prompt.category === 'Local'
-              }"
+              :class="`${categoryColor.bg} ${categoryColor.text}`"
             >
               {{ prompt.category }}
             </span>
@@ -35,13 +31,7 @@
           class="prose max-w-none text-sm"
           :class="{ 'line-clamp-4': !expanded }"
         >
-          <pre><code 
-            :class="{
-              'language-lisp': prompt.category === 'Ecommerce',
-              'language-markdown': prompt.category === 'Social',
-              'language-json': prompt.category === 'Local'
-            }"
-          >{{ !expanded ? prompt.prompt.slice(0, 150) + '...' : prompt.prompt }}</code></pre>
+          <pre><code class="language-markdown">{{ !expanded ? prompt.prompt.slice(0, 150) + '...' : prompt.prompt }}</code></pre>
         </div>
         
         <button
@@ -85,8 +75,9 @@
 </template>
 
 <script setup lang="ts">
-import { ref, nextTick, onMounted, onUpdated } from 'vue'
+import { ref, nextTick, onMounted, onUpdated, computed } from 'vue'
 import type { Prompt } from '../types/prompt'
+import { categories } from '../data/categories'
 import Prism from 'prismjs'
 
 interface Props {
@@ -96,6 +87,12 @@ interface Props {
 const props = defineProps<Props>()
 
 const expanded = ref(false)
+
+// Get category colors
+const categoryColor = computed(() => {
+  const category = categories.find(cat => cat.id === props.prompt.category)
+  return category ? category.color : { bg: 'bg-gray-100', text: 'text-gray-700' }
+})
 
 // Events
 const emit = defineEmits<{
@@ -125,7 +122,7 @@ onUpdated(() => {
 .prose pre {
   margin: 0;
   padding: 1rem;
-  background: #1e1e1e;
+  background: #f3f4f6;
   border-radius: 0.5rem;
   overflow-x: auto;
 }
@@ -134,6 +131,7 @@ onUpdated(() => {
   font-size: 0.875rem;
   line-height: 1.5;
   white-space: pre-wrap;
+  color: #374151;
 }
 
 .line-clamp-4 {

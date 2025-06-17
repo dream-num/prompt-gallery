@@ -103,7 +103,7 @@ export const PromptData = {
     content: '金色的沙丘环绕着一片翠绿的绿洲，棕榈树在微风中轻轻摇曳。清澈的湖水倒映着蓝天白云，骆驼商队在远处行进。夕阳将沙漠染成橘红色，营地里升起袅袅炊烟。',
     category: ['自然', '沙漠', '宁静'],
     tags: ['绿洲', '日落', '探险'],
-    author: 'Capalyze',
+    author: 'ChatGPT',
     createTime: new Date('2024-02-20'),
     updateTime: new Date('2024-02-20'),
     likes: 156,

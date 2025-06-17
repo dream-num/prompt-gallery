@@ -2,22 +2,25 @@ import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import type { Prompt, PromptCategory } from '../types/prompt'
 import { prompts as localPrompts, tags as localTags } from '../data/prompts'
+import { categories as categoryConfigs } from '../data/categories'
 
 export const usePromptStore = defineStore('prompt', () => {
   const prompts = ref<Prompt[]>(localPrompts)
   const loading = ref(false)
   const tags = ref(localTags)
   const currentPage = ref(1)
-  const pageSize = ref(6)
+  const pageSize = ref(9)
   const selectedTags = ref<string[]>([])
   const searchQuery = ref('')
   const currentCategory = ref<PromptCategory>('Ecommerce')
 
-  const categories = computed(() => [
-    { id: 'Ecommerce', name: 'Ecommerce', count: prompts.value.filter(p => p.category === 'Ecommerce').length },
-    { id: 'Social', name: 'Social', count: prompts.value.filter(p => p.category === 'Social').length },
-    { id: 'Local', name: 'Local', count: prompts.value.filter(p => p.category === 'Local').length },
-  ])
+  const categories = computed(() => 
+    categoryConfigs.map(cat => ({
+      id: cat.id as PromptCategory,
+      name: cat.name,
+      count: prompts.value.filter(p => p.category === cat.id).length
+    }))
+  )
 
   const filteredAndSortedPrompts = computed(() => {
     let filtered = [...prompts.value]
