@@ -11,12 +11,12 @@ export const usePromptStore = defineStore('prompt', () => {
   const pageSize = ref(6)
   const selectedTags = ref<string[]>([])
   const searchQuery = ref('')
-  const currentCategory = ref<PromptCategory>('Claude')
+  const currentCategory = ref<PromptCategory>('Ecommerce')
 
   const categories = computed(() => [
-    { id: 'Claude', name: 'Claude', count: prompts.value.filter(p => p.category === 'Claude').length },
-    { id: 'ChatGPT', name: 'ChatGPT', count: prompts.value.filter(p => p.category === 'ChatGPT').length },
-    { id: 'Midjourney', name: 'Midjourney', count: prompts.value.filter(p => p.category === 'Midjourney').length },
+    { id: 'Ecommerce', name: 'Ecommerce', count: prompts.value.filter(p => p.category === 'Ecommerce').length },
+    { id: 'Social', name: 'Social', count: prompts.value.filter(p => p.category === 'Social').length },
+    { id: 'Local', name: 'Local', count: prompts.value.filter(p => p.category === 'Local').length },
   ])
 
   const filteredAndSortedPrompts = computed(() => {

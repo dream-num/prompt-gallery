@@ -5,8 +5,7 @@ export interface Prompt {
   author: string
   publish: string
   starred?: boolean
-  category: 'Claude' | 'ChatGPT' | 'Midjourney'
-  preview?: string
+  category: 'Ecommerce' | 'Social' | 'Local'
 }
 
-export type PromptCategory = 'Claude' | 'ChatGPT' | 'Midjourney' 
+export type PromptCategory = 'Ecommerce' | 'Social' | 'Local' 
