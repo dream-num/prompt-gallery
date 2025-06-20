@@ -4,7 +4,6 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [vue()],
-  base: process.env.NODE_ENV === 'production' ? '/prompt-gallery/' : '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')
