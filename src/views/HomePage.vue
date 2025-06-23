@@ -175,12 +175,13 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch, onMounted } from 'vue'
+import { ref, watch, onMounted, computed } from 'vue'
 import { usePromptStore } from '../stores/prompt'
 import type { Prompt, PromptCategory } from '../types/prompt'
 import PromptCard from '../components/PromptCard.vue'
 import PreviewModal from '../components/PreviewModal.vue'
 import MessageNotification from '../components/MessageNotification.vue'
+import { updateSEO } from '../utils/seo'
 import Prism from 'prismjs'
 import 'prismjs/themes/prism-tomorrow.css'
 import 'prismjs/components/prism-lisp'
@@ -193,6 +194,67 @@ const searchInput = ref('')
 const previewPrompt = ref<Prompt | null>(null)
 const copyMessage = ref('')
 const showMessage = ref(false)
+
+// SEO optimization
+const pageTitle = computed(() => {
+  const category = store.currentCategory
+  const searchQuery = store.searchQuery
+  
+  if (searchQuery) {
+    return `Search: ${searchQuery} - Prompt Gallery`
+  }
+  
+  if (category && category !== 'all') {
+    return `${category} Prompts - Prompt Gallery`
+  }
+  
+  return 'Prompt Gallery - High-Quality AI Prompts Collection'
+})
+
+const pageDescription = computed(() => {
+  const category = store.currentCategory
+  const totalPrompts = store.prompts.length
+  
+  if (category && category !== 'all') {
+    return `Explore ${totalPrompts} high-quality ${category.toLowerCase()} prompts for ChatGPT, Claude, and other AI models. Perfect for ${category.toLowerCase()} professionals and enthusiasts.`
+  }
+  
+  return `Discover ${totalPrompts} high-quality AI prompts across multiple categories including social media, ecommerce, marketing, and local business. Free AI prompt library for ChatGPT, Claude, and more.`
+})
+
+const pageKeywords = computed(() => {
+  const category = store.currentCategory
+  const basekeywords = 'AI prompts, ChatGPT prompts, Claude prompts, AI prompt library'
+  
+  if (category && category !== 'all') {
+    return `${basekeywords}, ${category.toLowerCase()} prompts, ${category.toLowerCase()} AI assistance`
+  }
+  
+  return `${basekeywords}, social media prompts, ecommerce prompts, marketing prompts, local business prompts`
+})
+
+// Update SEO when page changes
+watch([() => store.currentCategory, () => store.searchQuery, () => store.prompts], () => {
+  updateSEO({
+    title: pageTitle.value,
+    description: pageDescription.value,
+    keywords: pageKeywords.value,
+    canonicalUrl: `https://prompt.capalyze.ai/${store.currentCategory !== 'all' ? '?category=' + store.currentCategory : ''}`,
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": pageTitle.value,
+      "description": pageDescription.value,
+      "url": `https://prompt.capalyze.ai/`,
+      "numberOfItems": store.prompts.length,
+      "about": {
+        "@type": "Thing",
+        "name": "AI Prompts",
+        "description": "High-quality prompts for artificial intelligence models"
+      }
+    }
+  })
+}, { immediate: true })
 
 // Initialize code highlighting and clipboard
 onMounted(() => {
@@ -266,4 +328,4 @@ watch(() => store.selectedTags, () => {
 .modal-leave-to {
   opacity: 0;
 }
-</style> 
+</style>

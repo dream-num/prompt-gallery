@@ -18,8 +18,18 @@ export default defineConfig({
     assetsDir: 'assets',
     rollupOptions: {
       output: {
-        manualChunks: undefined
+        manualChunks: {
+          vendor: ['vue', 'vue-router', 'pinia'],
+          prism: ['prismjs'],
+          utils: ['clipboard']
+        }
       }
-    }
+    },
+    // Use esbuild for minification (default and faster than terser)
+    minify: 'esbuild'
+  },
+  // Enable preload for critical resources
+  optimizeDeps: {
+    include: ['vue', 'vue-router', 'pinia', 'prismjs', 'clipboard']
   }
-}) 
+})
