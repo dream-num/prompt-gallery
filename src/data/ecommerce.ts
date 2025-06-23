@@ -265,4 +265,235 @@ export const ecommercePrompts = [
     publish: '2025-06-17',
     category: 'Ecommerce'
   },
+  {
+    title: 'Writing Product Descriptions That Include Certain Words',
+    prompt: `I need to write a product description for our [type of product] that not only informs and persuades but also includes these specific words or phrases: [List of Words]. Make sure the description is coherent and the words are naturally integrated.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Crafting Product Descriptions that Exclude Specific Words',
+    prompt: `I need a product description for our [type of product] that effectively describes its features and benefits but avoids using these specific words: [List of Excluded Words]. Make sure the description still communicates the essence of the product.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Boosting Sales with a Product Description That Motivates Customers to Make a Purchase',
+    prompt: `Write a compelling product description for our [type of product] that accentuates its primary features and benefits, persuading the customer to make a purchase.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Elevate Your Product Copy by Writing Like an Expert Level Copywriter',
+    prompt: `I want to describe our [specific product] with the finesse of an expert copywriter. Please craft a product description that's compelling, captivating, and showcases superior copywriting skills.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Crafting Product Content with The Right Tone: From Humor to Luxury',
+    prompt: `I need to describe our [specific product] by adopting a [chosen tone] tone. Draft a product description that aligns with this tone, making it resonate with our target audience.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Creating Product Descriptions Within a Specific Word Range (Example:150-300 Words)',
+    prompt: `Craft a detailed description for our [specific product] that captures its essence and features, ensuring it falls within a 150-300 word range.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Writing Keyword Rich Product Descriptions Optimized for Google and Amazon SEO',
+    prompt: `Draft a product description for our [specific product] that's rich in keywords relevant to our niche. Ensure it's optimized for both Google and Amazon's search algorithms. Use the following keywords and weave them into the content naturally: [insert keywords].`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Writing Product Descriptions That Differentiates Your Product From Competition',
+    prompt: `Compose a product description for our [specific product] that not only highlights its unique features but also clearly differentiates it from competing products in the market. Here's what makes it different [insert differentiators or value prop].`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Writing Descriptions for Specific Languages',
+    prompt: `Please provide a product description for our [specific product] tailored for a [chosen language] audience. Ensure cultural nuances are respected and the description resonates with native speakers`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Creating Product Descriptions that Capture the Imagination',
+    prompt: `Draft a product description for our [specific product] that transcends standard details and paints a vivid, imaginative picture for potential buyers.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Showcasing Value and Cost-Effectiveness in Descriptions',
+    prompt: `Write a product description for our [specific product] that accentuates its great value for money, showcasing its top-tier features without the premium price tag [highlight value].`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Create Industry-Tailored Descriptions That Resonate With Your Target Audience',
+    prompt: `Write a product description for our [specific product] that's perfectly attuned to the [chosen industry], emphasizing elements that resonate with industry insiders and enthusiasts.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Crafting Titles with Optimal Length',
+    prompt: `Create a title for our [specific product] that succinctly captures its essence, ensuring it remains within [ideal title length] characters for maximum engagement and readability.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Setting the Right Title Tone',
+    prompt: `Create a title for our [specific product] that embodies a [desired tone] vibe, making sure it aligns with our brand voice and speaks directly to our target audience.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Titles Optimized for Google & Amazon SEO',
+    prompt: `Generate a title for our [specific product] that incorporates [target keywords], ensuring it's optimized for ranking on both Google and Amazon search platforms.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Crafting Titles for Specific Languages',
+    prompt: `Devise a title for our [specific product] that resonates in both English and [desired language], ensuring that it's clear, catchy, and culturally appropriate.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Writing Titles that Spark Urgency',
+    prompt: `Produce a title for our [specific product] that conveys a sense of scarcity or time-sensitive urgency, compelling potential buyers to act swiftly. Use this: [Insert scarcity or urgency]`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Incorporating Social Proof into Product Titles',
+    prompt: `Write a title for our [specific product] that subtly weaves in elements of social proof, such as high ratings, bestseller status, or user endorsements. Use this social proof [insert social proof].`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Creating Titles Infused with Seasonal Charm',
+    prompt: `Craft a title for our [specific product] that captures the essence of [particular season], aligning the product with the season.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Titles that Spotlight Product Attributes & Key Features',
+    prompt: `Write a title for our [specific product] that highlights its standout features, making it evident what sets this product apart from others. Here are the key features to highlight: [insert features].`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Titles with Clear Variant Details',
+    prompt: `Write a title for our [specific product] that seamlessly integrates its size or variant detail, providing clarity and ensuring the right fit for potential buyers. Here's what you should highlight: [insert variant details].`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Titles that Radiate Luxury & Premium Quality',
+    prompt: `Compose a title for our [specific product] that embodies luxury and premium quality, making potential customers feel the exclusivity and superior craftsmanship of the item.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Combo-Packed Title Structures',
+    prompt: `Create a title for our [specific product] that combines [key elements], giving a more complete snapshot in just a few words.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Crafting Meta Descriptions of Optimal Length',
+    prompt: `Write a concise and impactful meta description for our [specific product] that stays within the optimal [character limit], ensuring it displays correctly on search engines and attracts potential buyers.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Setting the Perfect Tone in Meta Descriptions',
+    prompt: `Draft a meta description for our [specific product] that adopts a [desired tone], aligning with our brand voice and appealing directly to our target audience.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'SEO-Optimized Meta Descriptions',
+    prompt: `Write an SEO-optimized meta description for our [specific product] incorporating the keywords [target keywords], ensuring it ranks higher in search engine results.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Meta Descriptions that Convey Scarcity & Urgency',
+    prompt: `Write a meta description for our [specific product] that communicates scarcity and prompts urgency, encouraging potential buyers to act swiftly.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Incorporating Social Proof in Meta Descriptions',
+    prompt: `Craft a meta description for our [specific product] that weaves in elements of social proof, instilling confidence in potential buyers about the product's credibility and popularity.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Highlighting Key Features in Meta Descriptions',
+    prompt: `Compose a meta description for our [specific product] emphasizing its standout features, ensuring potential customers immediately understand its unique value propositions.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Extracting Product Tags from Descriptions',
+    prompt: `Generate a list of tags based on this product description: '[product description]'.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Competitor-Informed Tag Generation',
+    prompt: `Considering competitors label similar products as '[competitor description]', generate distinguishing tags for our product described as '[our product description]'.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Sentiment-Informed Product Tag Generation',
+    prompt: `Based on user sentiments like '[user feedback]', generate appropriate product tags.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Generating Tags That Signal Purchase Intent',
+    prompt: `Based on the product description for our [type of product], generate a set of tags that would indicate a strong likelihood of purchase intent.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
 ]
