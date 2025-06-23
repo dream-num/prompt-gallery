@@ -4,6 +4,33 @@ import type { Prompt, PromptCategory } from '../types/prompt'
 import { prompts as localPrompts, tags as localTags } from '../data/prompts'
 import { categories as categoryConfigs } from '../data/categories'
 
+// Helper function to get URL parameter
+const getUrlParam = (param: string): string | null => {
+  if (typeof window === 'undefined') return null
+  const urlParams = new URLSearchParams(window.location.search)
+  return urlParams.get(param)
+}
+
+// Helper function to update URL parameter
+const updateUrlParam = (param: string, value: string) => {
+  if (typeof window === 'undefined') return
+  const url = new URL(window.location.href)
+  url.searchParams.set(param, value)
+  window.history.replaceState({}, '', url.toString())
+}
+
+// Helper function to get initial category from URL or default
+const getInitialCategory = (): PromptCategory => {
+  const urlCategory = getUrlParam('category')
+  const validCategories = categoryConfigs.map(cat => cat.id)
+  
+  if (urlCategory && validCategories.includes(urlCategory as PromptCategory)) {
+    return urlCategory as PromptCategory
+  }
+  
+  return 'Ecommerce' // default category
+}
+
 export const usePromptStore = defineStore('prompt', () => {
   const prompts = ref<Prompt[]>(localPrompts)
   const loading = ref(false)
@@ -12,7 +39,7 @@ export const usePromptStore = defineStore('prompt', () => {
   const pageSize = ref(9)
   const selectedTags = ref<string[]>([])
   const searchQuery = ref('')
-  const currentCategory = ref<PromptCategory>('Ecommerce')
+  const currentCategory = ref<PromptCategory>(getInitialCategory())
 
   const categories = computed(() => 
     categoryConfigs.map(cat => ({
@@ -90,6 +117,9 @@ export const usePromptStore = defineStore('prompt', () => {
     currentPage.value = 1
     selectedTags.value = []
     searchQuery.value = ''
+    
+    // Update URL parameter
+    updateUrlParam('category', category)
   }
 
   return {
@@ -108,4 +138,4 @@ export const usePromptStore = defineStore('prompt', () => {
     currentCategory,
     setCategory
   }
-}) 
+})
