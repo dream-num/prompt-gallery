@@ -201,14 +201,41 @@ const previewPrompt = ref<Prompt | null>(null)
 const copyMessage = ref('')
 const showMessage = ref(false)
 
-// Initialize store with URL category or prop category
+// Helper function to get category from URL
+const getUrlCategory = (): PromptCategory | null => {
+  const urlParams = new URLSearchParams(window.location.search)
+  const category = urlParams.get('category')
+  const validCategories = ['Ecommerce', 'Social', 'Local', 'Marketing']
+  
+  if (category && validCategories.includes(category)) {
+    return category as PromptCategory
+  }
+  
+  return null
+}
+
+// Helper function to get search from URL
+const getUrlSearch = (): string => {
+  const urlParams = new URLSearchParams(window.location.search)
+  return urlParams.get('search') || ''
+}
+
+// Initialize store with URL parameters or props
 onMounted(() => {
   // Check URL parameters first, then fallback to props
   const urlCategory = getUrlCategory()
+  const urlSearch = getUrlSearch()
+  
   if (urlCategory) {
     store.setCategory(urlCategory)
   } else if (props.category) {
     store.setCategory(props.category)
+  }
+  
+  if (urlSearch) {
+    // For URL-based search, update URL parameter
+    store.setSearchQuery(urlSearch, true)
+    searchInput.value = urlSearch
   }
   
   Prism.highlightAll()
@@ -232,19 +259,6 @@ onMounted(() => {
   })
 })
 
-// Helper function to get category from URL
-const getUrlCategory = (): PromptCategory | null => {
-  const urlParams = new URLSearchParams(window.location.search)
-  const category = urlParams.get('category')
-  const validCategories = ['Ecommerce', 'Social', 'Local', 'Marketing']
-  
-  if (category && validCategories.includes(category)) {
-    return category as PromptCategory
-  }
-  
-  return null
-}
-
 // Handle category change with URL update
 const handleCategoryChange = (categoryId: PromptCategory) => {
   store.setCategory(categoryId)
@@ -252,15 +266,30 @@ const handleCategoryChange = (categoryId: PromptCategory) => {
 
 // Watch for category changes
 watch(() => props.category, (newCategory) => {
-  store.setCategory(newCategory)
+  if (newCategory) {
+    store.setCategory(newCategory)
+  }
+})
+
+// Watch for store search changes and sync with input
+watch(() => store.searchQuery, (newSearch) => {
+  searchInput.value = newSearch
 })
 
 // Watch for URL changes (browser back/forward)
 onMounted(() => {
   window.addEventListener('popstate', () => {
     const urlCategory = getUrlCategory()
+    const urlSearch = getUrlSearch()
+    
     if (urlCategory && urlCategory !== store.currentCategory) {
       store.setCategory(urlCategory)
+    }
+    
+    if (urlSearch !== store.searchQuery) {
+      // For URL changes, update URL parameter
+      store.setSearchQuery(urlSearch, true)
+      searchInput.value = urlSearch
     }
   })
 })
@@ -288,6 +317,7 @@ const closePreview = () => {
 }
 
 const handleSearch = () => {
-  store.setSearchQuery(searchInput.value)
+  // For manual search, don't update URL
+  store.setSearchQuery(searchInput.value, false)
 }
 </script>

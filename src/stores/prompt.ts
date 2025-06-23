@@ -15,7 +15,11 @@ const getUrlParam = (param: string): string | null => {
 const updateUrlParam = (param: string, value: string) => {
   if (typeof window === 'undefined') return
   const url = new URL(window.location.href)
-  url.searchParams.set(param, value)
+  if (value) {
+    url.searchParams.set(param, value)
+  } else {
+    url.searchParams.delete(param)
+  }
   window.history.replaceState({}, '', url.toString())
 }
 
@@ -31,6 +35,11 @@ const getInitialCategory = (): PromptCategory => {
   return 'Ecommerce' // default category
 }
 
+// Helper function to get initial search from URL
+const getInitialSearch = (): string => {
+  return getUrlParam('search') || ''
+}
+
 export const usePromptStore = defineStore('prompt', () => {
   const prompts = ref<Prompt[]>(localPrompts)
   const loading = ref(false)
@@ -38,7 +47,7 @@ export const usePromptStore = defineStore('prompt', () => {
   const currentPage = ref(1)
   const pageSize = ref(9)
   const selectedTags = ref<string[]>([])
-  const searchQuery = ref('')
+  const searchQuery = ref(getInitialSearch())
   const currentCategory = ref<PromptCategory>(getInitialCategory())
 
   const categories = computed(() => 
@@ -107,16 +116,21 @@ export const usePromptStore = defineStore('prompt', () => {
     currentPage.value = 1
   }
 
-  const setSearchQuery = (query: string) => {
+  const setSearchQuery = (query: string, updateUrl: boolean = false) => {
     searchQuery.value = query
     currentPage.value = 1
+    
+    // Only update URL parameter if explicitly requested
+    if (updateUrl) {
+      updateUrlParam('search', query)
+    }
   }
 
   const setCategory = (category: PromptCategory) => {
     currentCategory.value = category
     currentPage.value = 1
     selectedTags.value = []
-    searchQuery.value = ''
+    // Don't clear search when changing category
     
     // Update URL parameter
     updateUrlParam('category', category)
