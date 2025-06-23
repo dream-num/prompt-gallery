@@ -3,6 +3,7 @@ import { ref, computed } from 'vue'
 import type { Prompt, PromptCategory } from '../types/prompt'
 import { prompts as localPrompts, tags as localTags } from '../data/prompts'
 import { categories as categoryConfigs } from '../data/categories'
+import { useFavoritesStore } from './favorites'
 
 // Helper function to get URL parameter
 const getUrlParam = (param: string): string | null => {
@@ -49,6 +50,7 @@ export const usePromptStore = defineStore('prompt', () => {
   const selectedTags = ref<string[]>([])
   const searchQuery = ref(getInitialSearch())
   const currentCategory = ref<PromptCategory>(getInitialCategory())
+  const favoritesStore = useFavoritesStore()
 
   const categories = computed(() => 
     categoryConfigs.map(cat => ({
@@ -58,8 +60,16 @@ export const usePromptStore = defineStore('prompt', () => {
     }))
   )
 
+  // Add starred status from favorites store
+  const promptsWithStarred = computed(() => {
+    return prompts.value.map(prompt => ({
+      ...prompt,
+      starred: favoritesStore.isFavorited(prompt.id)
+    }))
+  })
+
   const filteredAndSortedPrompts = computed(() => {
-    let filtered = [...prompts.value]
+    let filtered = [...promptsWithStarred.value]
 
     filtered = filtered.filter(prompt => prompt.category === currentCategory.value)
 
@@ -85,11 +95,16 @@ export const usePromptStore = defineStore('prompt', () => {
       })
     }
 
+    // Sort by publish date only (no starring priority)
     return filtered.sort((a, b) => {
-      if (a.starred && !b.starred) return -1
-      if (!a.starred && b.starred) return 1
       return new Date(b.publish).getTime() - new Date(a.publish).getTime()
     })
+  })
+
+  // Get all favorited prompts
+  const favoritePrompts = computed(() => {
+    return promptsWithStarred.value.filter(prompt => prompt.starred)
+      .sort((a, b) => new Date(b.publish).getTime() - new Date(a.publish).getTime())
   })
 
   const paginatedPrompts = computed(() => {
@@ -138,6 +153,7 @@ export const usePromptStore = defineStore('prompt', () => {
 
   return {
     prompts: paginatedPrompts,
+    favoritePrompts,
     loading,
     tags,
     fetchPrompts: () => {},

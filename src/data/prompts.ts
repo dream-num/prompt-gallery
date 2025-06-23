@@ -7,9 +7,17 @@ export const tags = [
     'Headline', 'Product', 'Description', 'Title','Email'
   ] 
 
+// Add unique IDs to prompts
+const addIds = (prompts: any[], prefix: string) => {
+  return prompts.map((prompt, index) => ({
+    ...prompt,
+    id: `${prefix}-${index + 1}`
+  }))
+}
+
 export const prompts = [
-  ...ecommercePrompts,
-  ...localPrompts,
-  ...marketingPrompts,
-  ...socialPrompts
+  ...addIds(ecommercePrompts, 'ecommerce'),
+  ...addIds(localPrompts, 'local'),
+  ...addIds(marketingPrompts, 'marketing'),
+  ...addIds(socialPrompts, 'social')
 ]

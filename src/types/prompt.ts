@@ -1,6 +1,7 @@
 import type { PromptCategory } from '../data/categories'
 
 export interface Prompt {
+  id: string
   title: string
   prompt: string
   author: string
@@ -9,4 +10,4 @@ export interface Prompt {
   category: PromptCategory
 }
 
-export type { PromptCategory } 
+export type { PromptCategory }

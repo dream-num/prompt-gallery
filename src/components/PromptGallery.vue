@@ -13,6 +13,18 @@
           </a>
         </div>
         <div class="flex items-center space-x-4">
+          <button
+            @click="showFavorites = true"
+            class="relative px-3 py-2 bg-yellow-500 text-white rounded-md hover:bg-yellow-400 transition-colors duration-100 text-sm flex items-center space-x-2"
+          >
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+            <span>Favorites</span>
+            <span v-if="favoritesStore.favoritesCount > 0" class="text-white">
+              ({{ favoritesStore.favoritesCount }})
+            </span>
+          </button>
           <a 
             href="https://capalyze.ai" 
             target="_blank"
@@ -162,6 +174,14 @@
     </main>
   </div>
 
+  <!-- Favorites Page Modal -->
+  <div 
+    v-if="showFavorites"
+    class="fixed inset-0 bg-white z-50 overflow-y-auto"
+  >
+    <FavoritesPage @close="showFavorites = false" />
+  </div>
+
   <!-- Preview Modal -->
   <PreviewModal 
     :prompt="previewPrompt"
@@ -178,10 +198,12 @@
 <script setup lang="ts">
 import { ref, onMounted, watch } from 'vue'
 import { usePromptStore } from '../stores/prompt'
+import { useFavoritesStore } from '../stores/favorites'
 import type { Prompt, PromptCategory } from '../types/prompt'
 import PromptCard from './PromptCard.vue'
 import PreviewModal from './PreviewModal.vue'
 import MessageNotification from './MessageNotification.vue'
+import FavoritesPage from './FavoritesPage.vue'
 import Prism from 'prismjs'
 import 'prismjs/themes/prism-tomorrow.css'
 import 'prismjs/components/prism-lisp'
@@ -196,10 +218,12 @@ interface Props {
 const props = defineProps<Props>()
 
 const store = usePromptStore()
+const favoritesStore = useFavoritesStore()
 const searchInput = ref('')
 const previewPrompt = ref<Prompt | null>(null)
 const copyMessage = ref('')
 const showMessage = ref(false)
+const showFavorites = ref(false)
 
 // Helper function to get category from URL
 const getUrlCategory = (): PromptCategory | null => {
@@ -305,7 +329,7 @@ const getCategoryUrl = (categoryId: string) => {
 }
 
 const toggleStar = (prompt: Prompt) => {
-  prompt.starred = !prompt.starred
+  favoritesStore.toggleFavorite(prompt.id)
 }
 
 const openPreview = async (prompt: Prompt) => {
