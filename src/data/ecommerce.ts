@@ -496,4 +496,88 @@ export const ecommercePrompts = [
     publish: '2025-01-21',
     category: 'Ecommerce'
   },
+  {
+    title: 'Generate FAQ Responses for International Shipping',
+    prompt: `Write a comprehensive set of FAQs that address international shipping and customs-related queries. Address questions about shipping fees, estimated delivery times, customs duties, and import regulations. Craft answers that guide customers through potential customs processes, documents required, and the steps to track international shipments.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Draft Personalized Product Recommendations',
+    prompt: `As a personalized shopping assistant, provide in-depth details about each product to help users make confident decisions. Encourage feedback so you can refine your recommendations over time, ensuring a smoother and more personalized shopping experience. Efficiency and user satisfaction should always be top priorities, continuously focusing on improving the recommendation process based on user interactions.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Write an Apology Email',
+    prompt: `Write a 70-word personalized apology email to a customer about [specific issue]. Include a sincere apology, a brief explanation of what went wrong, how to prevent this in the future, and a goodwill gesture like a discount.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Generate LinkedIn Post About Industry Trends',
+    prompt: `Generate a LinkedIn post about staying up-to-date with industry trends and news. Write in a professional but accessible voice and tone. Make it informational. Include three hashtags and one or two emojis.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Write Email Marketing Campaign',
+    prompt: `You're an email marketing expert. My brand is [insert BRAND name]. We need an email sequence highlighting our latest feature [describe the feature]. The emails should nurture a relationship with someone already on my mailing list.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Produce SEO-Friendly Blog Post and Meta Description',
+    prompt: `Write a 150-character meta description for a blog post below using the relevant keywords [insert keywords]. Write an action-oriented, engaging, and clickable title with [primary keyword]. The search intent is to [purchase a service], and the target audience is [insert ideal customer]. [Insert article text below.]`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Enhance Product Descriptions for Conversions',
+    prompt: `I want to increase conversions on my website and revamp the product descriptions. Use the following description as a starting point for [product] Write in a clear, concise and persuasive way. Avoid marketing speak.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Generate Cross-Sell Suggestions',
+    prompt: `You are an ecommerce sales expert. Develop personalized cross-sell recommendations for customers based on items in their shopping cart. Suggest items that enhance the use or enjoyment of the original items. Here is additional data on items frequently purchased and inventory level [insert data].`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Create FAQ Content for Product Pages',
+    prompt: `Create four to five engaging FAQs that detail technical specifications and key features. Highlight key attributes and USPs that set your offering apart in the market: Reference documentation or a knowledge base for demo setup and seamless integration. Cover use cases for customers looking for tailored solutions. Avoid industry jargon.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Develop Promotional Strategies',
+    prompt: `You're a PR pro and skilled marketer. Recommend a promotional strategy with complementary businesses to mine [insert business name]. Find nano-influencers in [your industry]. Provide expert tips for uncovering potential partners that other companies have not used but with strong social media followings.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Analyze Competitor Trends',
+    prompt: `Analyze competitor trends in [your industry] by evaluating the market positioning, product offerings, pricing strategies and marketing tactics of the following competitors: [Competitor 1], [Competitor 2], and [Competitor 3]. Our ideal buyer is [detailed buyer persona, including demographics, pain points, motivations and purchasing behavior]. Given this information, provide an overview of current market trends in [your industry], including consumer preferences, emerging technologies and shifts in demand. Based on these insights, suggest three to five innovative promotional strategies to help us differentiate our brand, capture more market share and appeal directly to our target audience. Focus on unique marketing channels, messaging tactics, partnerships or experiential campaigns that align with current industry trends.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
+  {
+    title: 'Plan Customer Loyalty Initiatives',
+    prompt: `You are an ecommerce expert. Suggest ways to personalize loyalty rewards to enhance customer satisfaction and retention for [Ecommerce Brand]. Use customer segmentation data, purchase history, and existing reward options to suggest tailored incentives. Consider personalized discounts, exclusive offers, and product recommendations that align with individual preferences. Ensure the approach makes customers feel valued while driving long-term engagement.`,
+    author: 'ChatGPT',
+    publish: '2025-01-21',
+    category: 'Ecommerce'
+  },
 ]
