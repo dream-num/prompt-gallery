@@ -626,5 +626,285 @@ Your task is to brainstorm ideas for a TikTok challenge that is creative, intera
     author: 'ChatGPT',
     publish: '2025-01-15',
     category: 'Social'
+  },
+  {
+    title: 'Instagram Motivational Quotes for Stories',
+    prompt: `Imagine you're a social media marketing guru. Write three motivational quotes to inspire [insert your target audience] to [insert the desired action]. Keep each quote under 30 words and the vibe upbeat. These will be used in Instagram stories.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Viral Instagram Reels Ideas',
+    prompt: `Think of five inspiring Instagram Reels that could go viral. These should resonate with [insert your target audience] and showcase [insert your product/brand].`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Inspirational Instagram Caption Writer',
+    prompt: `Craft an inspirational Instagram caption about [insert your topic] that will engage [insert your audience]. Start with a hook that grabs attention and keeps them reading. Provide five options. Word count should be under 100 words.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Instagram Caption Variations with Hashtags',
+    prompt: `Create five different versions of an inspiring Instagram caption for a photo of [insert your product/topic]. Make sure it grabs the attention of [insert your target audience] and keep it short and sweet (1-2 sentences). Don't forget to add relevant hashtags to boost visibility.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'X (Twitter) Thread Ideas',
+    prompt: `Brainstorm five compelling ideas for X (formerly Twitter) about [insert your topic]. Each thread should kick off with a killer hook in the first tweet that grabs attention and makes readers eager to dive into the rest of the thread.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'X (Twitter) Benefits Thread',
+    prompt: `Craft an X (formerly Twitter) that really showcases the benefits of [insert your topic] for [insert your target audience]. Here's how you have to break it down: Start with an attention-grabbing intro tweet. List each benefit in separate tweets, keeping it concise and engaging. Wrap it up with a strong call to action in the final tweet, driving people to visit our website at [insert your website].`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'X (Twitter) Thread from Content',
+    prompt: `Take the information below [insert excerpt] and turn it into an X (formerly Twitter) that will captivate [insert your target audience]. Start with a hook in the first tweet to grab attention. Follow up with engaging and concise points in each tweet, making sure to keep your audience interested throughout. Wrap it up with a compelling call to action in the final tweet to encourage interaction or drive them to your website.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'X (Twitter) Thread in Foreign Language',
+    prompt: `Take these bullet points and turn them into a lively, informative X (formerly Twitter) in Russian. Make sure each tweet is engaging and keeps your audience hooked. Let's make this thread unforgettable!`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'X (Twitter) Hook Alternatives',
+    prompt: `Let's spice up this opening hook for an X (formerly Twitter). Suggest five alternative ways to phrase it, making sure each one grabs attention and pulls readers in.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'X (Twitter) User Stories Thread',
+    prompt: `Create an X (formerly Twitter) featuring three user stories or testimonials about [insert your product/service]. Each tweet should tell a compelling story that highlights the benefits and positive experiences of your users. End with a tweet inviting others to share their own stories.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'X (Twitter) Poll Thread',
+    prompt: `Create an X (formerly Twitter) that includes a poll about [insert your topic]. Start with an engaging introduction to the topic, followed by the poll itself. Use subsequent tweets to share interesting facts or perspectives related to the poll question. End with a tweet encouraging followers to vote and share their opinions.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Facebook Event Teaser',
+    prompt: `Tease an upcoming event related to [insert your brand]. Share some exciting details and keep your audience in the loop with follow-up posts.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Facebook Behind-the-Scenes Content',
+    prompt: `Give your audience a behind-the-scenes look at [insert your project/event]. Share interesting details and photos to make them feel like insiders.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Facebook Step-by-Step Guide',
+    prompt: `Break down a step-by-step guide for using [insert your product/service]. Use clear language and visuals to make it easy to follow. Show your audience just how simple it can be to achieve great results.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Facebook Interactive Quiz',
+    prompt: `Create an interactive quiz related to [insert your topic]. Use a series of engaging questions to entertain and educate your audience and encourage them to share their results in the comments.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Facebook Pros and Cons Post',
+    prompt: `Create a thoughtful Facebook post listing the pros and cons of [insert your topic]. This balanced approach will provide valuable insights and help your audience make informed decisions.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Facebook Daily Routine Post',
+    prompt: `Describe how incorporating [insert your product/service] into a daily routine can make a positive difference. Start with a hook in the first sentence to grab attention and keep the tone positive throughout. Show your audience how easy and beneficial it is to use your product daily.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Facebook LinkedIn Adaptation',
+    prompt: `Take an engaging LinkedIn story and adapt it for your Facebook audience. Make sure the post is tailored to their interests and preferences and keep the tone conversational to foster engagement.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Facebook Customer Success Story',
+    prompt: `Highlight a customer's success story or testimonial about [insert your product/service]. Use a mix of text and visuals to create a compelling narrative that showcases the positive impact your brand has had.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Facebook UGC Challenge',
+    prompt: `Kick off a user-generated content challenge! Encourage your audience to share their best photos or videos using [insert your product/service] and offer a prize for the best submission. Use an exciting and engaging tone to get everyone involved and create a sense of community.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn Industry Trends Discussion',
+    prompt: `Share your thoughts on the latest trends in [insert your industry]. Highlight key insights and how they could impact professionals in your network. Ask for their opinions to spark a discussion.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn Expert Tips',
+    prompt: `Offer five expert tips on [insert a relevant topic]. Make each tip actionable and beneficial for your audience. End with a question to encourage engagement and additional tips from others.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn Success Story Detailed',
+    prompt: `Share a success story about [insert your product/service]. Detail the journey and the results achieved, highlighting key takeaways that can inspire and educate your audience.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn Thought Leadership',
+    prompt: `Write a thought-provoking piece on [insert a trending topic or issue]. Provide your perspective and back it up with data or examples. Encourage your audience to share their thoughts and experiences.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn Industry Challenge Solutions',
+    prompt: `Address a common challenge in [insert your industry] and propose potential solutions. Ask your network to share their experiences and ideas for overcoming these challenges.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn Professional Poll',
+    prompt: `Create a LinkedIn poll about [insert your topic]. Make sure to ask a question that's relevant and thought-provoking for your network. Provide a few response options and explain why the poll is important in the accompanying post. Encourage your audience to vote and share their insights in the comments.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn Event Announcement',
+    prompt: `Announce an upcoming webinar, conference or event related to [insert your industry]. Share why it's valuable and encourage your network to attend. Follow up with insights and takeaways after the event.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn Copy Variations',
+    prompt: `Suggest five different versions of the draft copy below. Each alternative should be designed to provoke thought and engage your audience deeply. Think about what would spark curiosity, encourage discussion and make people want to share their perspectives. [Insert draft copy]`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Pinterest Interesting Facts',
+    prompt: `Share five interesting and lesser-known facts about [insert your topic]. Format these as a series of "Did You Know?" posts that are both educational and engaging.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Pinterest Checklist Creator',
+    prompt: `Create a detailed checklist for [insert your topic]. Ensure each item is clear and actionable, making it easy for users to save and reference later.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Pinterest Quick Tips',
+    prompt: `Develop a series of quick tips about [insert your topic]. Each tip should be concise and packed with value, ideal for easy pinning and quick reference.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Pinterest Step-by-Step Process',
+    prompt: `Outline a step-by-step process for achieving [insert your goal]. Each step should be clear and easy to follow, making it a practical guide that users will want to pin for future use.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'TikTok Top Tips Script',
+    prompt: `Create a TikTok script sharing your top five tips for [insert your topic]. Each tip should be concise and actionable, perfect for a quick and engaging video that your audience can easily follow and implement.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'TikTok Myth Debunking',
+    prompt: `Write a TikTok script where you debunk common myths about [insert your topic]. Present each myth and then provide the facts, making it an informative and engaging video that educates your audience while keeping them entertained.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'TikTok Process Guide',
+    prompt: `Develop a short and engaging TikTok script that guides viewers through a simple process related to [insert your topic]. Each step should be clear and easy to follow, ensuring that your audience can quickly grasp and apply the information.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Product Launch Announcement',
+    prompt: `Create a social media post announcing the launch of our new product for Facebook, Instagram and LinkedIn. The post should be engaging and convey excitement. Include the product name and highlight its key features or benefits. Mention that the product is now available and include a link for purchase. Use hashtags like #NewArrival and #ProductLaunch to increase visibility.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Engaging Social Media Poll',
+    prompt: `Create an engaging social media poll question that encourages followers to share their preferences or opinions on [insert topic relevant to your brand]. The poll should be short and to the point, with two or more answer options. Use a conversational tone and include a relevant hashtag.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Social Media Giveaway Post',
+    prompt: `Generate a social media post announcing a giveaway for [insert product/service]. The post should clearly state the prize, entry rules, and encourage followers to participate. Use an enthusiastic tone and include a call to action with relevant hashtags.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Light-hearted Engagement Post',
+    prompt: `Create a fun and light-hearted social media post that engages followers with a playful question, joke, or challenge related to [insert topic]. The tone should be casual and engaging, encouraging interaction in the comments.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
+  },
+  {
+    title: 'Compelling Call-to-Action Post',
+    prompt: `Draft a compelling call to action (CTA) social media post that encourages followers to [insert desired action, e.g., sign up, learn more, purchase]. The post should be persuasive and clearly communicate the benefits of taking action, with a direct link included. Use urgency if appropriate.`,
+    author: 'Sprinklr',
+    publish: '2025-01-15',
+    category: 'Social'
   }
 ]
