@@ -56,7 +56,7 @@ Your task is to create a concise yet informative guide that will help tourists u
 
 - Country: [country name]`,
     author: 'ChatGPT',
-    publish: '2025-01-17',
+    publish: '2025-06-26',
     category: 'Travel'
   },
   {
@@ -67,7 +67,7 @@ Your task is to conduct research or surveys to gather insights on the amenities 
 
 - Target group: [target group]`,
     author: 'ChatGPT',
-    publish: '2025-01-17',
+    publish: '2025-06-26',
     category: 'Travel'
   },
   {
@@ -79,7 +79,7 @@ Your task is to conduct thorough research on the country and month specified, an
 - Country: [country]
 - Month: [month]`,
     author: 'ChatGPT',
-    publish: '2025-01-17',
+    publish: '2025-06-26',
     category: 'Travel'
   },
   {
@@ -91,7 +91,7 @@ Your task is to research and compile a comprehensive list of cultural events tha
 Country: [country]
 Month: [month]`,
     author: 'ChatGPT',
-    publish: '2025-01-17',
+    publish: '2025-06-26',
     category: 'Travel'
   },
   {
@@ -103,7 +103,7 @@ Your task is to create a day-by-day plan that maximizes the traveler's time in t
 Type of trip: [e.g. family vacation, solo adventure, foodie tour]
 City: [city name]`,
     author: 'ChatGPT',
-    publish: '2025-01-17',
+    publish: '2025-06-26',
     category: 'Travel'
   },
   {
@@ -114,7 +114,7 @@ Your task is to research and compile a list of the highest-rated hotels in the c
 
 - City: [city]`,
     author: 'ChatGPT',
-    publish: '2025-01-17',
+    publish: '2025-06-25',
     category: 'Travel'
   },
   {
@@ -125,7 +125,7 @@ Your task is to draft a response that acknowledges the client's dissatisfaction,
 
 Client's concerns: [client's concerns]`,
     author: 'ChatGPT',
-    publish: '2025-01-17',
+    publish: '2025-06-25',
     category: 'Travel'
   },
   {
@@ -137,7 +137,7 @@ Your task is to brainstorm ideas for posts, campaigns, and promotions that will 
 - Social Media Platform: [Platform] 
 - Target audience: [E.g. Travel enthusiasts, vacation seekers]`,
     author: 'ChatGPT',
-    publish: '2025-01-17',
+    publish: '2025-06-25',
     category: 'Travel'
   },
   {
@@ -149,7 +149,7 @@ Your task is to create a comprehensive emergency contact plan that is easy to un
 - Country: [country]
 - Important contact information: [contact information]`,
     author: 'ChatGPT',
-    publish: '2025-01-17',
+    publish: '2025-06-25',
     category: 'Travel'
   }
 ]

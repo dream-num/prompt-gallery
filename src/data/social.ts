@@ -10,42 +10,42 @@ export const socialPrompts = [
     title: 'Facebook Post Ideas Generator',
     prompt: `Act as a creative expert specializing in creating engaging Facebook posts. Generate 5 creative ideas for posts about [topic] that will captivate the target audience and drive engagement. Each idea should be unique, visually appealing, and thought-provoking. Consider incorporating multimedia elements such as images, videos, or interactive content to make the posts stand out. Ensure that the ideas align with the brand's messaging and goals, and have the potential to go viral and spark conversation among followers.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
     title: 'Facebook Poll Ideas',
     prompt: `Act as a creative expert specializing in creating engaging Facebook posts. Brainstorm and provide ideas for an interactive poll related to [topic]. The poll should be designed to generate high levels of engagement, spark conversations, and drive interaction with the audience. Consider incorporating visuals, interesting questions, and multiple-choice options to make the poll visually appealing and easy to participate in. Aim to create a poll that will attract a wide range of responses and encourage users to share their thoughts and opinions.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
     title: 'Facebook Giveaway Ideas',
     prompt: `Act as a creative expert specializing in creating engaging Facebook posts. Generate concepts for a contest related to [topic] that will capture the interest of the target audience. Develop ideas that will encourage participation, drive engagement, and increase brand awareness. Ensure that the contest aligns with the brand's values and messaging, and is in line with Facebook's contest guidelines. Present multiple creative concepts, including entry mechanics, prizes, and promotion strategies, that will maximize participation and create buzz around the contest.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
     title: 'Facebook Post Writer',
     prompt: `As a creative expert specializing in creating engaging Facebook posts, your task is to write a captivating post about [topic]. The post should be visually appealing, incorporate storytelling elements, and include a call to action to encourage audience engagement. Utilize your creativity to craft a post that resonates with the target audience, sparks conversation, and drives meaningful interactions. Consider using multimedia elements such as images or videos to enhance the post's impact and reach. Remember to stay true to the brand's voice and messaging while creating a post that stands out on the platform.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
     title: 'Facebook Event Promotion',
     prompt: `Act as a creative expert specializing in creating engaging Facebook posts. Write a captivating post to promote [event description], highlighting the key features and benefits of attending. The post should be visually appealing, use compelling language to spark interest, and include a call-to-action to encourage users to RSVP or learn more. Incorporate storytelling elements, utilize relevant hashtags, and engage with the audience by asking questions or encouraging comments. Aim to drive engagement, increase event awareness, and ultimately boost attendance.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
     title: 'Facebook Trends Analyzer',
     prompt: `Act as a data analyst and analyze current Facebook trends related to [topic]. Track trending topics, hashtags, and engagement metrics on Facebook. Identify patterns, insights, and opportunities within the data to inform a strategic approach for leveraging these trends in marketing or content creation. Provide a detailed analysis report with recommendations on how to capitalize on current Facebook trends to reach a larger audience and drive engagement.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
@@ -57,7 +57,7 @@ export const socialPrompts = [
 3. Prioritize the subtopics based on their potential to engage the audience and align with the goals of the Instagram account. Evaluate each idea in terms of its uniqueness, entertainment value, and educational content.
 4. Provide a final selection of 5-10 topics with brief descriptions, highlighting what makes each idea compelling and how it can be visually presented in a short Instagram reel.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
@@ -69,7 +69,7 @@ export const socialPrompts = [
 3. Prioritize questions that are likely to spark discussions and prompt meaningful interactions. Consider the different angles from which the topic can be approached and tailor the questions to appeal to a diverse audience.
 4. Provide a final selection of questions, ensuring that they vary in complexity and appeal to different viewer demographics. Additionally, include suggestions on how these questions can be integrated into an IG reel to maximize engagement and responses.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
@@ -82,7 +82,7 @@ export const socialPrompts = [
 4. Create the video content for each part, ensuring that it is concise, visually appealing, and aligned with the overall theme of the series. Incorporate engaging visuals, on-screen text, and possibly background music to make the content more compelling.
 5. Publish the series on Instagram Reels, following a consistent schedule to maximize audience reach and engagement. Monitor the performance of each part and adjust future content based on viewer feedback and analytics.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
@@ -95,7 +95,7 @@ export const socialPrompts = [
 4. Ensure that the script is concise and tailored to the short and fast-paced nature of Instagram reels, keeping in mind that visuals will complement and enhance the spoken content.
 5. Provide suggestions for visual elements or actions that can accompany each part of the script, enhancing the overall impact and viewer retention.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
@@ -108,7 +108,7 @@ export const socialPrompts = [
 4. Incorporate the chosen pun into the video by either adding it as a subtitle at a strategic moment, having a voiceover deliver it, or integrating it into on-screen graphics. Ensure that the pun is presented in a way that is visually engaging and easy to understand.
 5. Review the video with the added pun to confirm that it enhances the comedic appeal and does not disrupt the overall flow or message. Make any necessary adjustments for timing or delivery to optimize the pun's impact.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
@@ -121,7 +121,7 @@ export const socialPrompts = [
 4. Evaluate the potential captions based on their relevance, creativity, and ability to encourage audience interaction. Select the most suitable caption that enhances the impact of the reel.
 5. Write the chosen caption, ensuring it is concise, attention-grabbing, and complements the visual content of the reel.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
@@ -134,217 +134,217 @@ export const socialPrompts = [
 4. Cross-reference with industry events and holidays: Consider any upcoming events, holidays, or industry-specific occasions that could influence content trends. Content that aligns with these moments often performs better.
 5. Suggest a list of trending topics: Based on your research and analysis, compile a list of trending topics for IG reels in [niche]. For each topic, provide a brief explanation of why it is relevant and how creators can approach it to maximize engagement.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
     title: 'Write a Captivating Instagram Bio',
     prompt: `Act as an experienced Instagram copywriter tasked with crafting an Instagram bio that encapsulates the client's [goals and interests]. The bio should be concise, memorable, and designed to attract the target audience. It must effectively communicate the essence of the client's personal or brand identity, leveraging their goals and interests to create a compelling narrative. Utilize strategic keywords and emojis if appropriate, to enhance visibility and engagement. The bio should also include a clear call-to-action, guiding followers on what steps to take next, whether it's to click a link, follow for more content, or reach out for collaborations. Ensure the bio aligns with the client's overall Instagram strategy and aesthetic, reinforcing their brand messaging and values.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
     title: 'Rewrite Bio for Conciseness',
     prompt: `Act as an experienced Instagram copywriter tasked with the critical job of shortening an Instagram bio while ensuring all essential details remain intact. This requires a keen understanding of concise writing without sacrificing the bio's essence, personality, and key information that defines the individual or brand. The updated bio should be engaging, clear, and optimized for the best user experience, effectively communicating the core message in fewer words. Utilize creative writing techniques to distill the bio to its most potent form, making every word count and ensuring the bio aligns with Instagram's best practices for maximum impact.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
     title: 'Check Instagram Bio Grammar and Spelling',
     prompt: `Make sure Instagram bio is captivating, error-free, and effectively represents the brand or individual's personality and values. The bio should be concise, include relevant keywords for SEO, and have a clear call-to-action. Use your expertise to craft a bio that stands out, encourages followers, and enhances the overall profile's appeal.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
     title: 'Tailor Bio to Your Niche',
     prompt: `As an experienced Instagram copywriter, your task is to customize an [Instagram bio] that perfectly reflects a specified professional niche. This bio must succinctly capture the essence of the professional or brand's identity, showcasing their unique value proposition to their target audience. It should be compelling, memorable, and tailored to engage and attract the ideal followers, clients, or collaborators within that niche.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
     title: 'Create Instagram Bio A/B Testing Suggestions',
     prompt: `Your task is to create multiple versions of an Instagram bio based on the provided [original bio]. These different versions will be used for A/B testing to determine which bio most effectively attracts and retains followers, enhances the brand's image, and increases engagement rates.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
     title: 'Brainstorm Instagram Caption Ideas',
     prompt: `Act as an experienced Instagram content creator, specialized in generating engaging and innovative post ideas based on [topic]. Your task involves brainstorming unique content that resonates with the target audience, encourages interaction, and enhances the visibility of the Instagram account. Each post idea should be crafted to spark curiosity, offer value, and prompt followers to engage through likes, comments, and shares. Ensure that the ideas align with Instagram's content guidelines, leverage trending hashtags where appropriate, and incorporate visually appealing elements to stand out in the feed.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-26',
     category: 'Social'
   },
   {
     title: 'Write Caption for an Image',
     prompt: `Act as a seasoned Instagram copywriter, tasked with creating compelling captions for [image description]. Your goal is to engage the platform's audience, prompting them to interact with the post through likes, comments, and shares. The caption should be concise yet evocative, striking the perfect balance between wit and relevance to the image. Incorporate trending hashtags where appropriate to increase visibility and encourage user engagement. Your writing should reflect the brand's voice, resonate with the target audience, and add value by either entertaining, informing, or inspiring them.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Write Caption on a Topic',
     prompt: `As a seasoned Instagram copywriter, your task is to craft an engaging and compelling Instagram caption based on [topic]. The caption should not only resonate with the target audience but also encourage interaction through likes, comments, and shares. Focus on creating a connection with the audience by using relatable language, incorporating relevant hashtags for increased visibility, and including a clear call-to-action (CTA) that prompts immediate response or engagement. Remember, the goal is to enhance the post's impact and ensure it stands out in a crowded Instagram feed.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Write Storytelling Caption',
     prompt: `As a seasoned Instagram copywriter, your task is to craft a compelling Instagram caption based on [topic] that will resonate with your target audience. The caption should be engaging, reflective of the brand's voice, and tailored to encourage interaction from the audience, such as likes, comments, and shares. It must be concise yet impactful, cleverly incorporating hashtags that increase visibility and align with trending topics when appropriate. The goal is to connect with followers on a deeper level, prompting them to engage with the content and feel a part of the brand's community. Your expertise in wordplay, knowledge of Instagram's algorithm, and ability to evoke emotion through text will be key factors in achieving this.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Suggest Caption Hashtags',
     prompt: `Act as an experienced Instagram content creator with a deep understanding of hashtag strategies and their impact on post visibility and engagement. Your task is to suggest relevant hashtags based on the provided [Instagram caption]. Analyze the content, tone, and theme of the caption to identify keywords and concepts that can be translated into effective hashtags. Your suggestions should aim to maximize the post's reach within the target audience, enhance its discoverability, and encourage user interaction. Consider a mix of popular, niche, and branded hashtags to create a well-rounded strategy. Ensure that all recommended hashtags are compliant with Instagram's guidelines and are likely to resonate with the intended audience.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Analyze Instagram Trends',
     prompt: `As an experienced Instagram content creator, your task is to conduct a comprehensive analysis of current Instagram trends surrounding [topic]. This analysis should include identifying the most popular hashtags, content types (such as videos, photos, stories, and reels), and engagement strategies that top influencers and brands are using to captivate their audience. Also, assess the visual and thematic elements that resonate most with users interested in [topic]. Your findings should be detailed and provide actionable insights that can be used to enhance content strategy, increase follower engagement, and boost overall visibility on the platform. Additionally, provide recommendations on how to innovate within [topic], potentially setting new trends. Your analysis will be crucial for staying ahead in the competitive space of Instagram content creation.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Generate Instagram Post Ideas',
     prompt: `Act as an experienced Instagram content creator specializing in [topic]. Generate a list of innovative and engaging Instagram post ideas that align with current trends and audience interests in the [topic] niche. Each idea should aim to captivate the audience, encourage interaction through likes, comments, and shares, and increase follower engagement and growth. Include suggestions for captivating visuals, compelling captions, and strategic hashtags that will enhance visibility and attract a wider audience. Ensure that the ideas are adaptable for various formats such as static posts, stories, reels, and IGTV, to maximize content reach and impact.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Write Instagram Post Caption for Image',
     prompt: `Act as a seasoned Instagram copywriter tasked with crafting an engaging caption for a post based on the provided [image description]. Your mission is to weave a narrative that resonates with the target audience, drives interaction, and enhances brand identity. The caption must be succinct yet powerful, incorporating relevant hashtags, a call-to-action, and aligning with Instagram's best practices to ensure maximum visibility. Your creative expertise will transform the [image description] into an inviting story or message that captivates followers, encourages shares, and fosters a strong community around the brand or personal profile.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Write Instagram Post Caption on Topic',
     prompt: `As a seasoned Instagram copywriter, your task is to craft a captivating Instagram caption based on [topic]. The caption should be designed to engage the platform's diverse audience, sparking interest and encouraging interaction. It must blend creativity with strategic hashtag use to maximize visibility and engagement. The caption should reflect the brand's voice, convey the message succinctly, and include a call-to-action that prompts followers to engage further, whether by liking, commenting, or sharing. Remember to keep the language relatable and ensure the caption complements the visual content for a cohesive post.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Suggest Relevant Instagram Post Hashtags',
     prompt: `Act as an experienced Instagram content creator. Your task is to suggest relevant hashtags based on a provided [Instagram caption]. The goal is to enhance the post's visibility, engage the target audience, and increase the likelihood of discovery by new followers. Analyze the caption to identify key themes, topics, and sentiments. Then, curate a list of hashtags that are popular yet specific enough to stand out in those categories. Ensure the hashtags are varied in popularity from highly trending to niche, to balance between reach and targeted engagement. Additionally, consider the brand or individual's identity and the broader context of their Instagram feed to align the hashtags with their overall social media strategy.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Brainstorm LinkedIn Post Ideas',
     prompt: `Act as a seasoned content creator with deep knowledge of the LinkedIn algorithm and a strong understanding of [industry]. Your task is to brainstorm a series of LinkedIn post ideas that will engage professionals within [industry], drive meaningful conversations, and enhance your personal or company brand's visibility on the platform. Each post idea should be innovative, thought-provoking, and tailored to the interests and challenges of [industry] professionals. Consider leveraging current trends, industry insights, personal success stories or failures, and actionable tips that could benefit the audience. The goal is to craft content that not only resonates with [industry] professionals but also encourages shares and comments, thereby increasing reach and engagement in line with LinkedIn's algorithm preferences.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Research and Gather LinkedIn Information',
     prompt: `Act as a seasoned content creator with deep expertise in leveraging the LinkedIn algorithm. Your task is to gather compelling and supporting information for a LinkedIn post about [topic]. This includes identifying relevant statistics, credible sources, and persuasive narratives that align with the latest trends and insights specific to LinkedIn's audience. The goal is to enhance the post's visibility, engagement, and credibility. Ensure the information is structured in a way that maximizes shareability and encourages professional discourse. Additionally, integrate strategic keywords and hashtags to improve discoverability within LinkedIn's search and feed algorithm.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Draft LinkedIn Post',
     prompt: `Act as a seasoned content creator with extensive experience and deep understanding of the LinkedIn algorithm. Write a LinkedIn post about [topic] that is tailored to engage professionals and industry leaders. The post should be insightful, offering unique perspectives or valuable information that sparks conversation and encourages sharing within professional networks. Utilize a mix of compelling storytelling, data-driven insights, and strategic use of hashtags to increase visibility and reach. The goal is to position yourself as a thought leader on [topic], driving meaningful engagement and connections on the platform. Ensure that the content is optimized for LinkedIn, taking into account factors such as the best time to post, post length, and the inclusion of relevant multimedia elements to enhance the message.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Suggest LinkedIn Post Images',
     prompt: `Act as a seasoned content creator with deep knowledge of the LinkedIn algorithm. Your task is to suggest a complementary image for a LinkedIn post about [topic]. The image must be professional yet engaging, designed to increase visibility and interaction with the post. It should resonate with the post's theme, enhancing the message and making it more relatable to the target audience. Consider LinkedIn's best practices for images, including size, quality, and relevance. The goal is to select an image that will boost the post's performance by encouraging likes, shares, and comments, ultimately expanding its reach within the platform.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Edit & Refine LinkedIn Post',
     prompt: `Act as a seasoned content creator with deep knowledge of the LinkedIn algorithm. Your task is to edit and refine a LinkedIn post to ensure it is optimized for engagement and visibility within the platform. The post should be professional yet engaging, structured to encourage interaction (likes, comments, and shares), and tailored to appeal to the specific target audience it intends to reach. Incorporate strategic keywords, maintain a tone that reflects the author's personal brand, and ensure the content aligns with LinkedIn's best practices. The goal is to enhance the post's clarity, impact, and potential reach, leveraging your understanding of the LinkedIn algorithm to maximize its effectiveness.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Analyze LinkedIn Trending Topics',
     prompt: `Act as a seasoned content creator with deep knowledge of the LinkedIn algorithm. Your task is to analyze and identify the current trending topics within [industry] on LinkedIn. Utilize your expertise to navigate through LinkedIn's content landscape, leveraging analytics tools and your understanding of the platform's algorithm to pinpoint themes that are gaining traction. Compile a comprehensive report detailing these trends, including potential reasons for their popularity and how they align with recent industry developments. Your analysis should offer actionable insights for businesses looking to engage with these trends, whether through content creation, networking strategies, or thought leadership. Ensure that your report is structured in a manner that is both informative and accessible, enabling stakeholders to easily digest and act upon your findings.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Write a Catchy LinkedIn Headline',
     prompt: `Act as an experienced LinkedIn copywriter. Craft a headline for my LinkedIn profile that effectively showcases my [expertise], grabs attention, and communicates my unique value proposition. The headline should be professional, concise, and tailored to my target audience or industry. It needs to set me apart from others in the field while encapsulating the essence of my professional journey and aspirations. Consider SEO optimization to ensure it reaches the right audience on LinkedIn searches.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Draft a LinkedIn Profile Summary',
     prompt: `Act as an experienced LinkedIn copywriter. Draft a compelling LinkedIn profile summary for me. The summary should accurately represent my professional background, skills, and accomplishments while also showcasing my unique value proposition. It should be tailored to appeal to [target industry], positioning me as a thought leader or expert in their field. Ensure that the tone is professional yet approachable and that it encourages networking and connection opportunities. Incorporate relevant keywords to enhance search visibility and alignment with industry trends.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Suggest Relevant LinkedIn Skills',
     prompt: `Act as a LinkedIn power user. Identify and suggest relevant skills that align with my [profession] and [expertise], enhancing my online presence and attractiveness to potential employers or clients. The suggested skills should be pertinent, and trend-aware, and should increase the chances of my profile being discovered by recruiters or industry professionals in search results.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Identify Important LinkedIn Keywords',
     prompt: `Act as a LinkedIn SEO expert. Conduct comprehensive research to identify SEO keywords that are relevant for [desired profession/industry/role] on LinkedIn. Your goal is to optimize my LinkedIn profile to increase visibility, attract potential employers or clients, and position me as a top professional in my field. Provide a list of at least 10 high-impact keywords along with their search volume and relevance. Additionally, offer suggestions on how to organically integrate these keywords into my LinkedIn profile sections, ensuring a natural flow of content while maximizing SEO benefits. Ensure that all recommendations adhere to LinkedIn's best practices and guidelines.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-25',
     category: 'Social'
   },
   {
     title: 'Request a LinkedIn Recommendation',
     prompt: `Act as an experienced copywriter specializing in professional branding. Draft a LinkedIn recommendation request tailored to [Contact Name]. The request should come across as genuine, professional, and compelling. Highlight specific projects or collaborations you've worked on with the contact, expressing how their insights or skills added value. The aim is to make the request personal and resonate with the contact, increasing the likelihood of them writing a detailed and positive recommendation for your LinkedIn profile. Ensure that the request is concise, respectful of their time, and offers them an out if they are too busy or unable to provide a recommendation at this time.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-24',
     category: 'Social'
   },
   {
     title: 'Write a LinkedIn Recommendation',
     prompt: `Act as an experienced copywriter with expertise in professional endorsements. Craft a compelling LinkedIn recommendation for [individual's name] based on their skills, achievements, and professional demeanor. The recommendation should be concise yet impactful, highlighting the individual's key strengths and accomplishments in their field. Make sure to convey genuine appreciation and assurance of the individual's capabilities. The objective is to create a recommendation that boosts the individual's professional image and makes them stand out in the LinkedIn community.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-24',
     category: 'Social'
   },
   {
     title: 'Generate LinkedIn Profile Post Ideas',
     prompt: `Act as an experienced content creator with expertise in LinkedIn marketing. Generate a list of compelling LinkedIn post ideas centered around [topic]. Each idea should be tailored to engage a professional audience, drive meaningful interactions, and position the brand or individual as a thought leader in the given area. Ensure that the ideas are diverse, ranging from informative articles and industry insights to interactive polls and thought-provoking questions. The goal is to encourage shares, comments, and likes, boosting visibility and engagement on the platform.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-24',
     category: 'Social'
   },
   {
     title: 'Draft a LinkedIn Article',
     prompt: `Act as an experienced copywriter specialized in professional content. Draft a LinkedIn article on [topic] that positions the author as a thought leader in the industry. The article should be well-researched, informative, and tailored to the LinkedIn audience – professionals seeking insights and updates in their fields. Ensure that the content is structured with a compelling introduction, clear subheadings, and a conclusive wrap-up. Incorporate SEO best practices without compromising the readability and authenticity of the article. Use persuasive language to engage readers, encourage discussions in the comments, and drive shares within the LinkedIn community.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-24',
     category: 'Social'
   },
   {
     title: 'Draft a LinkedIn Networking Message',
     prompt: `Act as an experienced copywriter with expertise in crafting compelling LinkedIn messages. Write a cold networking request to be sent on LinkedIn. The message should come across as genuine, professional, and engaging. It needs to establish a connection or common ground with the recipient, articulate the reason for reaching out, and prompt a positive response or further discussion. Make sure the message is concise, free from any salesy tone, and tailored to the recipient's industry or achievements, ensuring it stands out in their inbox and piques their interest.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-24',
     category: 'Social'
   },
   {
@@ -356,7 +356,7 @@ export const socialPrompts = [
 3. Brainstorm potential discussion points that would be both informative and engaging for the podcast's audience. Consider what angles haven't been covered widely, what questions are currently unanswered, or how [topic] relates to everyday life.
 4. Prioritize the generated topics based on their relevance, novelty, and potential audience interest. Provide a diverse range of ideas that can cater to different listener preferences or knowledge levels.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-24',
     category: 'Social'
   },
   {
@@ -368,7 +368,7 @@ export const socialPrompts = [
 3. Create multiple title options that incorporate the keywords and phrases while also being intriguing, concise, and reflective of the episode's style. Ensure that the titles are unique and not cliché.
 4. Prioritize the titles based on their ability to attract listeners, their relevance to the content, and their overall appeal.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-24',
     category: 'Social'
   },
   {
@@ -384,7 +384,7 @@ export const socialPrompts = [
 3. Evaluate each idea based on its potential for audience participation, relevance to the [topic], and feasibility of implementation within the podcast format.
 4. Prioritize the interactive content ideas, providing a shortlist with a brief explanation of each idea and how it enhances listener engagement while complementing the podcast's main content.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-24',
     category: 'Social'
   },
   {
@@ -396,7 +396,7 @@ export const socialPrompts = [
 3. Draft a series of tweets, ensuring each one is concise, attention-grabbing, and includes a clear call-to-action to listen to the podcast. Tailor the language and style to resonate with the target audience.
 4. Provide a schedule for when each tweet should be posted, taking into account optimal times for audience engagement and the overall narrative you want to convey throughout the week.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-24',
     category: 'Social'
   },
   {
@@ -412,7 +412,7 @@ export const socialPrompts = [
 7. Encourage subscribers to listen and engage by asking a question related to the episode or prompting them to share their thoughts after listening.
 8. Conclude the email with a call to action, such as subscribing to the podcast if they haven't already or sharing the episode with friends who might be interested.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-24',
     category: 'Social'
   },
   {
@@ -424,7 +424,7 @@ export const socialPrompts = [
 3. Incorporate a call to action that directs listeners on how they can learn more about or purchase the [product]. Make this call to action clear and easy to follow.
 4. Review the script to ensure it fits within the 30-second time frame while delivering a compelling message. Make any necessary adjustments to optimize impact within the time constraint.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-23',
     category: 'Social'
   },
   {
@@ -437,7 +437,7 @@ export const socialPrompts = [
 4. Write the script in a conversational yet informative tone, keeping in mind the podcast format where audio delivery is key. Incorporate storytelling, interviews (if applicable), and engaging questions to involve the listeners.
 5. Review and edit the script for clarity, flow, and accuracy of information. Make sure that the script is tailored to the podcast's style and target audience, providing value and interest throughout.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-23',
     category: 'Social'
   },
   {
@@ -450,7 +450,7 @@ export const socialPrompts = [
 4. Evaluate the questions to check for duplication, ensure a logical flow, and confirm that they collectively provide a comprehensive view of the [topic]. Make adjustments to prioritize the most crucial inquiries while maintaining a balance of depth and breadth in coverage.
 5. Provide a finalized list of questions, organized by section, ready for use in the podcast interview.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-23',
     category: 'Social'
   },
   {
@@ -464,7 +464,7 @@ export const socialPrompts = [
 5. Suggest a few possible dates and times for recording, allowing for flexibility to accommodate the [guest]'s schedule. Offer to provide more information or answer any questions they may have.
 6. Close the email with a friendly sign-off, reiterating the appreciation for their work and the interest in having them on the podcast.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-23',
     category: 'Social'
   },
   {
@@ -479,7 +479,7 @@ export const socialPrompts = [
 6. Clearly state what the next steps are if they are interested. This could involve setting up a meeting to discuss details, providing a media kit for further information, or any other relevant action.
 7. End the email with a polite closing. Thank them for considering the opportunity and sign off with your name and position.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-23',
     category: 'Social'
   },
   {
@@ -490,7 +490,7 @@ Your task is to brainstorm and outline five distinct TikTok video concepts that 
 
 - Topic: [topic]`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-23',
     category: 'Social'
   },
   {
@@ -502,7 +502,7 @@ Your task is to write a script that captures the audience's attention from the s
 - Topic: [topic]
 - Key points to cover: [key points]`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-23',
     category: 'Social'
   },
   {
@@ -513,7 +513,7 @@ Your task is to research and compile a list of trending hashtags on TikTok that 
 
 - Topic: [topic]`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-23',
     category: 'Social'
   },
   {
@@ -524,7 +524,7 @@ Your task is to come up with a captivating caption that will entice viewers to c
 
 - Video topic: [topic]`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-23',
     category: 'Social'
   },
   {
@@ -535,7 +535,7 @@ Your task is to carefully read through the script and offer suggestions for enha
 
 - TikTok script: [script]`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-23',
     category: 'Social'
   },
   {
@@ -544,7 +544,7 @@ Your task is to carefully read through the script and offer suggestions for enha
 
 - Comment to respond to: [comment text]`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-23',
     category: 'Social'
   },
   {
@@ -556,7 +556,7 @@ Your task is to create a detailed content calendar that includes a variety of co
 - Topic: [topic]
 - Target audience: [target audience]`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-22',
     category: 'Social'
   },
   {
@@ -568,343 +568,709 @@ Your task is to brainstorm ideas for a TikTok challenge that is creative, intera
 - Channel theme: [channel theme]
 - Target audience: [target audience]`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-22',
     category: 'Social'
   },
   {
     title: 'Brainstorm YouTube Shorts Video Topics',
     prompt: `Act as an experienced YouTube Shorts creator. Brainstorm and come up with 5 engaging and relevant topics for YouTube Shorts videos about [topic]. Each topic should be unique, attention-grabbing, and cater to the interests of the target audience. Consider incorporating trending themes or challenges to increase the videos' chances of going viral. Ensure that the topics are suitable for the short-form video format and can be easily executed within the constraints of YouTube Shorts.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-22',
     category: 'Social'
   },
   {
     title: 'Analyse YouTube Shorts Trends',
     prompt: `Act as an experienced YouTube shorts creator. Research and suggest trending topics in [niche] that are currently popular on YouTube. Provide insights into what types of content are currently performing well in the [niche], including video ideas, keywords, and trends that are gaining traction. Offer recommendations on how to capitalize on these trends and create engaging YouTube shorts content that will resonate with the target audience.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-22',
     category: 'Social'
   },
   {
     title: 'Improve YouTube Shorts Audience Engagement',
     prompt: `Act as an experienced Youtube shorts creator. Brainstorm and suggest interactive questions that you can ask your viewers about [topic] to increase engagement and create a sense of community. The questions should be thought-provoking, relevant, and encourage viewers to comment, like, and share the video. Consider incorporating open-ended questions, polls, or challenges to spark conversation and keep viewers coming back for more. Additionally, ensure that the questions align with your content and brand voice to maintain authenticity and connection with your audience.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-22',
     category: 'Social'
   },
   {
     title: 'Create YouTube Shorts Themed Series',
     prompt: `Act as an experienced Youtube shorts creator. Help develop a 5-part series on [topic] for a Youtube channel. Each short video should be engaging, informative, and visually appealing to capture the audience's attention. The series should be structured in a way that keeps viewers coming back for more, with each video leading to the next seamlessly. Utilize your expertise in creating short-form content to ensure that the series is optimized for maximum reach and engagement on the platform.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-22',
     category: 'Social'
   },
   {
     title: 'Write YouTube Shorts Scripts',
     prompt: `As an experienced YouTube shorts creator, your task is to write a short script for a YouTube Short video about [topic]. The script should be engaging, concise, and captivating to capture the viewer's attention within the first few seconds. Incorporate trending elements, catchy phrases, and visually appealing content to keep the audience engaged throughout the video. Ensure that the script aligns with YouTube Shorts guidelines and best practices to maximize its reach and engagement potential.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-22',
     category: 'Social'
   },
   {
     title: 'Add Jokes to YouTube Shorts',
     prompt: `Act as an experienced Youtube shorts creator. Add a funny pun about [topic] to your latest short video. The pun should be witty, engaging, and relevant to the content of the video. Ensure that the pun fits seamlessly into the video and enhances the overall entertainment value. Use your creativity and humor to make the audience laugh and share the video with their friends.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-22',
     category: 'Social'
   },
   {
     title: 'Write YouTube Shorts Description',
     prompt: `As an experienced YouTube shorts creator, your task is to write an optimized description for a YouTube Short video on [topic]. The description should be concise yet informative, utilizing relevant keywords to improve searchability and reach. It should provide a brief overview of the video content, enticing viewers to watch. Include any relevant calls to action, such as liking, commenting, or subscribing, to encourage viewer engagement. Additionally, consider incorporating hashtags and links to other related content to drive traffic and increase visibility. Ensure the description is engaging, informative, and aligns with the overall theme and message of the video.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-22',
     category: 'Social'
   },
   {
     title: 'Suggest YouTube Shorts SEO Title',
     prompt: `Act as an experienced YouTube shorts creator and suggest SEO-friendly titles for a short video about [topic]. The titles should be attention-grabbing, concise, and optimized for search engines to increase the video's visibility and reach. Consider relevant keywords, trending topics, and audience interests to come up with compelling titles that will attract viewers and improve the video's discoverability on YouTube. Additionally, ensure that the titles accurately reflect the content of the video to maintain viewer trust and engagement.`,
     author: 'ChatGPT',
-    publish: '2025-01-15',
+    publish: '2025-06-22',
     category: 'Social'
   },
   {
     title: 'Instagram Motivational Quotes for Stories',
     prompt: `Imagine you're a social media marketing guru. Write three motivational quotes to inspire [insert your target audience] to [insert the desired action]. Keep each quote under 30 words and the vibe upbeat. These will be used in Instagram stories.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-21',
     category: 'Social'
   },
   {
     title: 'Viral Instagram Reels Ideas',
     prompt: `Think of five inspiring Instagram Reels that could go viral. These should resonate with [insert your target audience] and showcase [insert your product/brand].`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-21',
     category: 'Social'
   },
   {
     title: 'Inspirational Instagram Caption Writer',
     prompt: `Craft an inspirational Instagram caption about [insert your topic] that will engage [insert your audience]. Start with a hook that grabs attention and keeps them reading. Provide five options. Word count should be under 100 words.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-21',
     category: 'Social'
   },
   {
     title: 'Instagram Caption Variations with Hashtags',
     prompt: `Create five different versions of an inspiring Instagram caption for a photo of [insert your product/topic]. Make sure it grabs the attention of [insert your target audience] and keep it short and sweet (1-2 sentences). Don't forget to add relevant hashtags to boost visibility.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-21',
     category: 'Social'
   },
   {
     title: 'X (Twitter) Thread Ideas',
     prompt: `Brainstorm five compelling ideas for X (formerly Twitter) about [insert your topic]. Each thread should kick off with a killer hook in the first tweet that grabs attention and makes readers eager to dive into the rest of the thread.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-21',
     category: 'Social'
   },
   {
     title: 'X (Twitter) Benefits Thread',
     prompt: `Craft an X (formerly Twitter) that really showcases the benefits of [insert your topic] for [insert your target audience]. Here's how you have to break it down: Start with an attention-grabbing intro tweet. List each benefit in separate tweets, keeping it concise and engaging. Wrap it up with a strong call to action in the final tweet, driving people to visit our website at [insert your website].`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-21',
     category: 'Social'
   },
   {
     title: 'X (Twitter) Thread from Content',
     prompt: `Take the information below [insert excerpt] and turn it into an X (formerly Twitter) that will captivate [insert your target audience]. Start with a hook in the first tweet to grab attention. Follow up with engaging and concise points in each tweet, making sure to keep your audience interested throughout. Wrap it up with a compelling call to action in the final tweet to encourage interaction or drive them to your website.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-21',
     category: 'Social'
   },
   {
     title: 'X (Twitter) Thread in Foreign Language',
     prompt: `Take these bullet points and turn them into a lively, informative X (formerly Twitter) in Russian. Make sure each tweet is engaging and keeps your audience hooked. Let's make this thread unforgettable!`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-21',
     category: 'Social'
   },
   {
     title: 'X (Twitter) Hook Alternatives',
     prompt: `Let's spice up this opening hook for an X (formerly Twitter). Suggest five alternative ways to phrase it, making sure each one grabs attention and pulls readers in.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-21',
     category: 'Social'
   },
   {
     title: 'X (Twitter) User Stories Thread',
     prompt: `Create an X (formerly Twitter) featuring three user stories or testimonials about [insert your product/service]. Each tweet should tell a compelling story that highlights the benefits and positive experiences of your users. End with a tweet inviting others to share their own stories.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-21',
     category: 'Social'
   },
   {
     title: 'X (Twitter) Poll Thread',
     prompt: `Create an X (formerly Twitter) that includes a poll about [insert your topic]. Start with an engaging introduction to the topic, followed by the poll itself. Use subsequent tweets to share interesting facts or perspectives related to the poll question. End with a tweet encouraging followers to vote and share their opinions.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-20',
     category: 'Social'
   },
   {
     title: 'Facebook Event Teaser',
     prompt: `Tease an upcoming event related to [insert your brand]. Share some exciting details and keep your audience in the loop with follow-up posts.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-20',
     category: 'Social'
   },
   {
     title: 'Facebook Behind-the-Scenes Content',
     prompt: `Give your audience a behind-the-scenes look at [insert your project/event]. Share interesting details and photos to make them feel like insiders.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-20',
     category: 'Social'
   },
   {
     title: 'Facebook Step-by-Step Guide',
     prompt: `Break down a step-by-step guide for using [insert your product/service]. Use clear language and visuals to make it easy to follow. Show your audience just how simple it can be to achieve great results.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-20',
     category: 'Social'
   },
   {
     title: 'Facebook Interactive Quiz',
     prompt: `Create an interactive quiz related to [insert your topic]. Use a series of engaging questions to entertain and educate your audience and encourage them to share their results in the comments.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-20',
     category: 'Social'
   },
   {
     title: 'Facebook Pros and Cons Post',
     prompt: `Create a thoughtful Facebook post listing the pros and cons of [insert your topic]. This balanced approach will provide valuable insights and help your audience make informed decisions.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-20',
     category: 'Social'
   },
   {
     title: 'Facebook Daily Routine Post',
     prompt: `Describe how incorporating [insert your product/service] into a daily routine can make a positive difference. Start with a hook in the first sentence to grab attention and keep the tone positive throughout. Show your audience how easy and beneficial it is to use your product daily.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-20',
     category: 'Social'
   },
   {
     title: 'Facebook LinkedIn Adaptation',
     prompt: `Take an engaging LinkedIn story and adapt it for your Facebook audience. Make sure the post is tailored to their interests and preferences and keep the tone conversational to foster engagement.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-20',
     category: 'Social'
   },
   {
     title: 'Facebook Customer Success Story',
     prompt: `Highlight a customer's success story or testimonial about [insert your product/service]. Use a mix of text and visuals to create a compelling narrative that showcases the positive impact your brand has had.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-20',
     category: 'Social'
   },
   {
     title: 'Facebook UGC Challenge',
     prompt: `Kick off a user-generated content challenge! Encourage your audience to share their best photos or videos using [insert your product/service] and offer a prize for the best submission. Use an exciting and engaging tone to get everyone involved and create a sense of community.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-20',
     category: 'Social'
   },
   {
     title: 'LinkedIn Industry Trends Discussion',
     prompt: `Share your thoughts on the latest trends in [insert your industry]. Highlight key insights and how they could impact professionals in your network. Ask for their opinions to spark a discussion.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-19',
     category: 'Social'
   },
   {
     title: 'LinkedIn Expert Tips',
     prompt: `Offer five expert tips on [insert a relevant topic]. Make each tip actionable and beneficial for your audience. End with a question to encourage engagement and additional tips from others.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-19',
     category: 'Social'
   },
   {
     title: 'LinkedIn Success Story Detailed',
     prompt: `Share a success story about [insert your product/service]. Detail the journey and the results achieved, highlighting key takeaways that can inspire and educate your audience.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-19',
     category: 'Social'
   },
   {
     title: 'LinkedIn Thought Leadership',
     prompt: `Write a thought-provoking piece on [insert a trending topic or issue]. Provide your perspective and back it up with data or examples. Encourage your audience to share their thoughts and experiences.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-19',
     category: 'Social'
   },
   {
     title: 'LinkedIn Industry Challenge Solutions',
     prompt: `Address a common challenge in [insert your industry] and propose potential solutions. Ask your network to share their experiences and ideas for overcoming these challenges.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-19',
     category: 'Social'
   },
   {
     title: 'LinkedIn Professional Poll',
     prompt: `Create a LinkedIn poll about [insert your topic]. Make sure to ask a question that's relevant and thought-provoking for your network. Provide a few response options and explain why the poll is important in the accompanying post. Encourage your audience to vote and share their insights in the comments.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-19',
     category: 'Social'
   },
   {
     title: 'LinkedIn Event Announcement',
     prompt: `Announce an upcoming webinar, conference or event related to [insert your industry]. Share why it's valuable and encourage your network to attend. Follow up with insights and takeaways after the event.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-19',
     category: 'Social'
   },
   {
     title: 'LinkedIn Copy Variations',
     prompt: `Suggest five different versions of the draft copy below. Each alternative should be designed to provoke thought and engage your audience deeply. Think about what would spark curiosity, encourage discussion and make people want to share their perspectives. [Insert draft copy]`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-19',
     category: 'Social'
   },
   {
     title: 'Pinterest Interesting Facts',
     prompt: `Share five interesting and lesser-known facts about [insert your topic]. Format these as a series of "Did You Know?" posts that are both educational and engaging.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-19',
     category: 'Social'
   },
   {
     title: 'Pinterest Checklist Creator',
     prompt: `Create a detailed checklist for [insert your topic]. Ensure each item is clear and actionable, making it easy for users to save and reference later.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-19',
     category: 'Social'
   },
   {
     title: 'Pinterest Quick Tips',
     prompt: `Develop a series of quick tips about [insert your topic]. Each tip should be concise and packed with value, ideal for easy pinning and quick reference.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-19',
     category: 'Social'
   },
   {
     title: 'Pinterest Step-by-Step Process',
     prompt: `Outline a step-by-step process for achieving [insert your goal]. Each step should be clear and easy to follow, making it a practical guide that users will want to pin for future use.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-18',
     category: 'Social'
   },
   {
     title: 'TikTok Top Tips Script',
     prompt: `Create a TikTok script sharing your top five tips for [insert your topic]. Each tip should be concise and actionable, perfect for a quick and engaging video that your audience can easily follow and implement.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-18',
     category: 'Social'
   },
   {
     title: 'TikTok Myth Debunking',
     prompt: `Write a TikTok script where you debunk common myths about [insert your topic]. Present each myth and then provide the facts, making it an informative and engaging video that educates your audience while keeping them entertained.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-18',
     category: 'Social'
   },
   {
     title: 'TikTok Process Guide',
     prompt: `Develop a short and engaging TikTok script that guides viewers through a simple process related to [insert your topic]. Each step should be clear and easy to follow, ensuring that your audience can quickly grasp and apply the information.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-18',
     category: 'Social'
   },
   {
     title: 'Product Launch Announcement',
     prompt: `Create a social media post announcing the launch of our new product for Facebook, Instagram and LinkedIn. The post should be engaging and convey excitement. Include the product name and highlight its key features or benefits. Mention that the product is now available and include a link for purchase. Use hashtags like #NewArrival and #ProductLaunch to increase visibility.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-18',
     category: 'Social'
   },
   {
     title: 'Engaging Social Media Poll',
     prompt: `Create an engaging social media poll question that encourages followers to share their preferences or opinions on [insert topic relevant to your brand]. The poll should be short and to the point, with two or more answer options. Use a conversational tone and include a relevant hashtag.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-18',
     category: 'Social'
   },
   {
     title: 'Social Media Giveaway Post',
     prompt: `Generate a social media post announcing a giveaway for [insert product/service]. The post should clearly state the prize, entry rules, and encourage followers to participate. Use an enthusiastic tone and include a call to action with relevant hashtags.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-18',
     category: 'Social'
   },
   {
     title: 'Light-hearted Engagement Post',
     prompt: `Create a fun and light-hearted social media post that engages followers with a playful question, joke, or challenge related to [insert topic]. The tone should be casual and engaging, encouraging interaction in the comments.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-18',
     category: 'Social'
   },
   {
     title: 'Compelling Call-to-Action Post',
     prompt: `Draft a compelling call to action (CTA) social media post that encourages followers to [insert desired action, e.g., sign up, learn more, purchase]. The post should be persuasive and clearly communicate the benefits of taking action, with a direct link included. Use urgency if appropriate.`,
     author: 'Sprinklr',
-    publish: '2025-01-15',
+    publish: '2025-06-18',
+    category: 'Social'
+  },
+  {
+    title: 'Instagram Motivational Quotes for Stories',
+    prompt: `Act as a social media marketing expert. Write five motivational quotes that would inspire [insert your target audience] to [insert the desired action]. The quotes will be featured in Instagram stories. Write each quote in an uplifting tone. Each quote should be no longer than 25 words.`,
+    author: 'AI Prompts',
+    publish: '2025-06-18',
+    category: 'Social'
+  },
+  {
+    title: 'Viral Instagram Reels Ideas Enhanced',
+    prompt: `Propose five ideas for inspiring Instagram reels with viral potential. The proposals should appeal to [insert your target audience] and help to promote [insert your product/brand].`,
+    author: 'AI Prompts',
+    publish: '2025-06-17',
+    category: 'Social'
+  },
+  {
+    title: 'Inspirational Instagram Caption with Hook',
+    prompt: `Write an inspirational Instagram caption about [insert your topic] that will engage the target audience [insert your audience]. The first sentence should include a hook that makes me want to keep reading. Give me five options.`,
+    author: 'AI Prompts',
+    publish: '2025-06-17',
+    category: 'Social'
+  },
+  {
+    title: 'Instagram Caption Three Versions',
+    prompt: `Generate three versions of an inspiring social media post. It should be an Instagram caption for a picture of [insert your product/topic] that will engage [insert your target audience]. The caption should be no longer than 1-2 sentences. Include relevant hashtags to help the caption stand out.`,
+    author: 'AI Prompts',
+    publish: '2025-06-17',
+    category: 'Social'
+  },
+  {
+    title: 'Inspirational Tone Alternatives',
+    prompt: `Below is a proposal for an Instagram caption. Give me three different options with a more inspirational tone.
+
+[insert your proposal]`,
+    author: 'AI Prompts',
+    publish: '2025-06-17',
+    category: 'Social'
+  },
+  {
+    title: 'Twitter Thread Ideas with Hooks',
+    prompt: `Brainstorm five ideas for Twitter threads about [insert your topic]. Make sure the first tweet in the thread includes a hook that will make me want to keep reading.`,
+    author: 'AI Prompts',
+    publish: '2025-06-17',
+    category: 'Social'
+  },
+  {
+    title: 'Twitter Benefits Thread with CTA',
+    prompt: `Explain the benefits of [insert your topic] for [insert your target audience]. Format the response as a Twitter thread where each tweet covers one benefit. In the final tweet, include a call to action that will drive people to our website at [insert your website].`,
+    author: 'AI Prompts',
+    publish: '2025-06-17',
+    category: 'Social'
+  },
+  {
+    title: 'Twitter Thread from Information',
+    prompt: `Summarize the information below into a Twitter thread that will be engaging for [insert your target audience].`,
+    author: 'AI Prompts',
+    publish: '2025-06-17',
+    category: 'Social'
+  },
+  {
+    title: 'Twitter Thread in Foreign Language',
+    prompt: `Translate the following bullet points into a Twitter thread in Spanish. Make each tweet informative and engaging.`,
+    author: 'AI Prompts',
+    publish: '2025-06-17',
+    category: 'Social'
+  },
+  {
+    title: 'Twitter Hook Alternatives',
+    prompt: `Suggest five alternative ways to phrase this opening hook for a Twitter thread.
+
+[insert your opening hook]`,
+    author: 'AI Prompts',
+    publish: '2025-06-17',
+    category: 'Social'
+  },
+  {
+    title: 'Facebook PAS Post',
+    prompt: `Write a Facebook post that uses a PAS on the [insert pain point] for [insert your target audience]. Recommend [insert your brand] as an alternative. Use a professional tone of voice.`,
+    author: 'AI Prompts',
+    publish: '2025-06-17',
+    category: 'Social'
+  },
+  {
+    title: 'Facebook Memory Sharing Post',
+    prompt: `Craft an engaging Facebook post that asks our audience to share their favorite memory related to [insert your brand]. Write it in an enthusiastic tone of voice.`,
+    author: 'AI Prompts',
+    publish: '2025-06-16',
+    category: 'Social'
+  },
+  {
+    title: 'Facebook Daily Routine Impact',
+    prompt: `Describe the impact of using [insert your product/service] as part of a daily routine. Format it as a Facebook post. Include a hook in the first sentence. Use a positive tone of voice.`,
+    author: 'AI Prompts',
+    publish: '2025-06-16',
+    category: 'Social'
+  },
+  {
+    title: 'Facebook Pros and Cons List',
+    prompt: `Create a list of pros and cons about [insert your topic]. Write it in a thoughtful tone of voice.`,
+    author: 'AI Prompts',
+    publish: '2025-06-16',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn to Facebook Adaptation',
+    prompt: `Paraphrase this LinkedIn story into a post that will engage [insert your target audience] on Facebook.`,
+    author: 'AI Prompts',
+    publish: '2025-06-16',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn Story in Author Style',
+    prompt: `Draft an insightful LinkedIn story about [insert your topic] in the style of [insert famous author]. The first sentence should be a hook that makes me want to read on and it should be no longer than 140 characters.`,
+    author: 'AI Prompts',
+    publish: '2025-06-16',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn Best Practices Post',
+    prompt: `Compose an insightful LinkedIn post promoting best practices within [insert your topic/industry]. Write it in a professional tone of voice.`,
+    author: 'AI Prompts',
+    publish: '2025-06-16',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn Insightful Hooks',
+    prompt: `Propose five insightful hooks that will make me want to read more about [insert topic] on LinkedIn. Each hook should include no more than 20 words.`,
+    author: 'AI Prompts',
+    publish: '2025-06-16',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn Thought-Provoking Alternatives',
+    prompt: `Suggest five alternatives to the draft copy below. It is for a LinkedIn post. Make the tone of voice more thought-provoking.
+
+[insert draft copy]`,
+    author: 'AI Prompts',
+    publish: '2025-06-16',
+    category: 'Social'
+  },
+  {
+    title: 'LinkedIn Blog Post Announcement',
+    prompt: `Act as a social media marketing expert. Recommend a LinkedIn post to announce a new blog post on [insert your topic]. Include a persuasive call to action to drive people to the blog post.`,
+    author: 'AI Prompts',
+    publish: '2025-06-16',
+    category: 'Social'
+  },
+  {
+    title: 'Excited Product Description Post',
+    prompt: `Describe how great [insert your new product] will be for [insert your target audience]. Write it as a social media post. Write it in an excited tone of voice.`,
+    author: 'AI Prompts',
+    publish: '2025-06-16',
+    category: 'Social'
+  },
+  {
+    title: 'Product Launch Press Release Post',
+    prompt: `Produce a social media post talking about [insert the URL of your product launch press release].`,
+    author: 'AI Prompts',
+    publish: '2025-06-16',
+    category: 'Social'
+  },
+  {
+    title: 'Product Summary Teaser',
+    prompt: `Summarize the text below into 2-3 sentences that will make me want to know more about [insert your new product].`,
+    author: 'AI Prompts',
+    publish: '2025-06-16',
+    category: 'Social'
+  },
+  {
+    title: 'Witty Product Announcement',
+    prompt: `Rewrite the social media announcement below in a witty tone of voice. Include emojis and hashtags to make it stand out.
+
+[insert your draft announcement]`,
+    author: 'AI Prompts',
+    publish: '2025-06-15',
+    category: 'Social'
+  },
+  {
+    title: 'Product Launch Hook Ideas',
+    prompt: `Suggest five hooks to begin a social media post announcing [insert your new product] that will catch people's attention.`,
+    author: 'AI Prompts',
+    publish: '2025-06-15',
+    category: 'Social'
+  },
+  {
+    title: 'Brand Reinforcement Poll',
+    prompt: `Give me three options for a poll question to use in a social media post reinforcing [insert your brand] as the best choice for [add relevant context].`,
+    author: 'AI Prompts',
+    publish: '2025-06-15',
+    category: 'Social'
+  },
+  {
+    title: 'Four-Option Social Media Poll',
+    prompt: `Generate a poll with four options for a social media post aimed at [insert your target audience]. The question should be about [insert your topic].`,
+    author: 'AI Prompts',
+    publish: '2025-06-15',
+    category: 'Social'
+  },
+  {
+    title: 'Product Comparison Poll',
+    prompt: `Create a social media post comparing [insert your brand's product A] with [insert your brand's product B]. Make it 2-3 sentences long. Add a poll asking people to vote for their favorite.`,
+    author: 'AI Prompts',
+    publish: '2025-06-15',
+    category: 'Social'
+  },
+  {
+    title: 'Incorrect Poll Answers Generator',
+    prompt: `Propose ten incorrect answers to the question [insert your question].`,
+    author: 'AI Prompts',
+    publish: '2025-06-15',
+    category: 'Social'
+  },
+  {
+    title: 'Shorten Poll Answers',
+    prompt: `Help me to make the poll answers below shorter. Each one needs to be a maximum of 25 characters.
+
+[insert your draft poll answers]`,
+    author: 'AI Prompts',
+    publish: '2025-06-15',
+    category: 'Social'
+  },
+  {
+    title: 'Giveaway Post Grammar Check',
+    prompt: `Run a spelling and grammar check on the social media giveaway post below:
+
+[insert your draft post]`,
+    author: 'AI Prompts',
+    publish: '2025-06-15',
+    category: 'Social'
+  },
+  {
+    title: 'Product Service Giveaway Post',
+    prompt: `Help me craft a social media giveaway post that is designed to promote [insert your product/service].`,
+    author: 'AI Prompts',
+    publish: '2025-06-15',
+    category: 'Social'
+  },
+  {
+    title: 'Giveaway Hashtag Suggestions',
+    prompt: `Suggest hashtags to use in social media posts that will launch a giveaway of [insert your product].`,
+    author: 'AI Prompts',
+    publish: '2025-06-15',
+    category: 'Social'
+  },
+  {
+    title: 'Giveaway Hook Creator',
+    prompt: `Act as a social media manager. Compose a hook 1-2 sentences long that will get people to take part in a giveaway of [insert your product].`,
+    author: 'AI Prompts',
+    publish: '2025-06-15',
+    category: 'Social'
+  },
+  {
+    title: 'Social Media Contest Ideas',
+    prompt: `Brainstorm five social media contest ideas that would engage customers of [insert your brand].`,
+    author: 'AI Prompts',
+    publish: '2025-06-15',
+    category: 'Social'
+  },
+  {
+    title: 'Pun Generator for Posts',
+    prompt: `Create five puns on the word [insert your word] to include in a social media post about [insert your topic].`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Fun Social Media Challenges',
+    prompt: `Propose three fun social media challenge ideas that will engage an audience interested in [add relevant context].`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Quirky Social Media Post',
+    prompt: `Act as one of the best social media marketers around. Write a fun social media post about [insert your topic] in a quirky tone of voice.`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Brand Product Riddle',
+    prompt: `Produce a riddle where the answer is [insert your product or brand].`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Surprising Fun Facts',
+    prompt: `Give me three fun facts about [insert your topic] that would surprise people in a social media post.`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Professional CTA Ideas',
+    prompt: `Give me five CTA ideas for [insert your product/service]. Make sure they are professional and persuasive. Each one should be no longer than 20 words.`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Three CTA Versions',
+    prompt: `Act as a copywriting expert. Write three versions of a call to action that will get [insert your target audience] to [insert your desired action].`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Website Traffic CTAs',
+    prompt: `Suggest ten short and powerful calls to action that would drive [insert your brand]'s audience from social media posts to its website.`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Improve CTA Persuasiveness',
+    prompt: `Improve the call to action below by rewriting it in a more persuasive tone of voice.
+
+[insert your draft CTA]`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Blog Post CTA Creator',
+    prompt: `Craft a call to action for that makes me want to read this blog post: [insert your URL]`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Controversial Debate Post',
+    prompt: `Write a short controversial social media post about [insert your topic] that will get the audience of [insert your brand] to debate the topic. Take a side in the debate.`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Conversation Starter Post',
+    prompt: `Draft a short social media post to start a conversation about [insert your topic]. Emphasize potential engagement.`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Engagement Hook Addition',
+    prompt: `Add a short hook to the start of the social media post below that will make me want to engage in the conversation. Provide me with three versions.
+
+[insert your draft post]`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Conversation Post Ideas',
+    prompt: `Brainstorm ten ideas for social media posts that will begin a conversation about [insert your topic].`,
+    author: 'AI Prompts',
+    publish: '2025-06-14',
+    category: 'Social'
+  },
+  {
+    title: 'Customer Debate Starters',
+    prompt: `Propose five ways to start a social media debate between customers of [insert your brand].`,
+    author: 'AI Prompts',
+    publish: '2025-06-26',
     category: 'Social'
   }
 ]
